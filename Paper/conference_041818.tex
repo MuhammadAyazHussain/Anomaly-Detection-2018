@@ -23,7 +23,7 @@
 %\thanks{Identify applicable funding agency here. If none, delete this.}
 }
 
-\author{\IEEEauthorblockN{Ioannis Iossifidis}
+\author{\IEEEauthorblockN{Muhammad Ayaz Hussain}
 \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
 \textit{name of organization (of Aff.)}\\
 Bochum, Germany \\
@@ -35,7 +35,7 @@ email address}
 Bochum, Germany \\
 email address}
 \and
-\IEEEauthorblockN{Muhammad Ayaz Hussain}
+\IEEEauthorblockN{Ioannis Iossifidis}
 \IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
 \textit{name of organization (of Aff.)}\\
 Bochum, Germany \\
@@ -46,7 +46,7 @@ email address}
 \maketitle
 
 \begin{abstract}
-This paper is concerned about the use of unsupervised learning algorithms in power consumption data, as well as the comparison of the performance between statistical method and Undercomplete Autoencoder in classification. As power consumption varies over time, therefore the labeled data created by that, becomes obsolete over times. Therefore, supervised learning is not a viable method in the prediction of energy consumption.
+This paper is concerned about the use of unsupervised learning (semi-supervised) algorithms in power consumption data, as well as the comparison of the performance between statistical method and Undercomplete Autoencoder in classification. As power consumption varies over time, therefore the labeled data created by that, becomes obsolete over times. Therefore, supervised learning is not a viable method in the prediction of energy consumption.
 %This document is a model and instructions for \LaTeX.
 
 \end{abstract}
@@ -57,7 +57,7 @@ This paper is concerned about the use of unsupervised learning algorithms in pow
 
 \section{Introduction}
 In modern days, the amount of energy consumption is becoming a more serious issue as several companies and industries are addressing this issue in order to contain their expenses as unexpected variations can incur additional operational costs to their facilities. These fluctuations in electricity consumption can arise from various factors such as excessive use of heavy equipment like electric heaters in winters, room coolers during the summers etc. In order to detect such variations or anomalies, anomaly detector algorithm is designed and implemented on the provided data.
-Presently, it is very difficult to predict the energy consumption anomalies precisely, since there are many factors influencing the energy usage, such as weather condition, building structure and characters, geographic location, occupancy \cite{bb1} and operation of appliances \cite{bb2,bb3}. 
+Presently, it is very difficult to predict the energy consumption anomalies precisely, since there are many factors influencing the energy usage, such as weather condition,  occupancy \cite{bb1} and operation of appliances \cite{bb2,bb3}. 
 
 \section{Related Works}
 
@@ -68,7 +68,7 @@ Also there have been some studies which compared the effectiveness of different 
 \section{Methodology}
 
 \subsection{\label{sec:level1}	Statistical Method}
-In order to detect outliers in the provided data, Tuckey's test was performed on the elements of feature vector, which involves the calculation of median of training data which is referred to $\mathit{Q}$2 and then again median of values lesser and greater than that of $\mathit{Q}$2  is calculated. Median of values lower than $\mathit{Q}$2  is refereed as $\mathit{Q}$1  (lower quartile) and those having greater than $\mathit{Q}$2 is referred as $\mathit{Q}$3  (upper quartile) as shown in Figure 8. 
+In order to detect outliers in the provided data, a modified version of Tuckey's test was performed on the elements of feature vector, which involves the calculation of median of training data which is referred to $\mathit{Q}$2 and then again median of values lesser and greater than that of $\mathit{Q}$2  is calculated. Median of values lower than $\mathit{Q}$2  is refereed as $\mathit{Q}$1  (lower quartile) and those having greater than $\mathit{Q}$2 is referred as $\mathit{Q}$3  (upper quartile) as shown in Figure 8. 
 
 After determining $\mathit{Q}$1 and $\mathit{Q}$3, then Interquartile Range (IQR) is calculated by subtracting the value at $\mathit{Q}$3 by $\mathit{Q}$1.
 
@@ -100,6 +100,8 @@ $\mathit{\alpha}$ is the factor which varies the inner fence limits.
 \end{figure}
 
 Any value lying beyond inner fence limits (upper and lower) can be considered as an 	outlier, and therefore, it is removed. A sample result of designed outlier detection 	algorithm is shown in Figure 3.
+
+As the dataset used in this project was highly varied and there were several energy values that stayed the same for the whole period of time. In order to calculate the quartiles and medians, there must be at least 4 unique values in a dataset, therefore for those dataset having less unique values, some product of their respective average was used to determine Inner and Outer Fences. 
 
 \subsection{\label{sec:level1}	Autoencoders}
 
@@ -140,7 +142,9 @@ Autoencoders are also trained to minimise reconstruction errors (such as squared
 where, $x$ is usually averaged over some input training set.
 
 If the feature space $\mathcal{F}$  has lower dimensionality than the input space $\mathcal{X}$, then the feature vector $\phi(x)$ can be regarded as a compressed representation of the input $x$.  If the hidden layers are larger than the input layer, an autoencoder can potentially learn the identity function and become useless. However, experimental results have shown that autoencoders might still learn useful features in these cases.
-In case of Undercomplete autoencoders, $\mathcal{F}$ has lower dimensionality than the input space $\mathcal{X}$, then the feature vector $\phi(x)$  can be regarded as a compressed representation of the input $x$
+In case of Undercomplete autoencoders, $\mathcal{F}$ has lower dimensionality than the input space $\mathcal{X}$, then the feature vector $\phi(x)$  can be regarded as a compressed representation of the input $x$.
+
+In our project, the Autoencoder was trained in a semi-supervised fashion on the values of normal energy consumption data. Afterwards, the trained model was used and evaluated on a pre-trained dataset. 
 
 
 \subsection{\label{sec:level1}	Performance Comparison between Anomaly Detection and Autoencoder}
