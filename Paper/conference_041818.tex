@@ -57,13 +57,27 @@ This paper is concerned about the use of unsupervised learning (semi-supervised)
 
 \section{Introduction}
 In modern days, the amount of energy consumption is becoming a more serious issue as several companies and industries are addressing this issue in order to contain their expenses as unexpected variations can incur additional operational costs to their facilities. These fluctuations in electricity consumption can arise from various factors such as excessive use of heavy equipment like electric heaters in winters, room coolers during the summers etc. In order to detect such variations or anomalies, anomaly detector algorithm is designed and implemented on the provided data.
-Presently, it is very difficult to predict the energy consumption anomalies precisely, since there are many factors influencing the energy usage, such as weather condition,  occupancy \cite{bb1} and operation of appliances \cite{bb2,bb3}. 
+Presently, it is very difficult to predict the energy consumption anomalies precisely, since there are many factors influencing the energy usage, such as weather condition \cite{bb0},  occupancy \cite{bb1} and operation of appliances \cite{bb2,bb3}. 
 
 \section{Related Works}
 
 Previous studies in data-driven building energy consumption prediction have utilized several methods such as Engineering methods \cite{bb4}, statistical method \cite{bb5}, Artificial Neural Networks (ANN) \cite{bb6,bb7}, support vector machines (SVM) \cite{bb8}, fuzzy logic and grey model techniques \cite{bb9}, decision trees \cite{bb10} etc. 
 
 Also there have been some studies which compared the effectiveness of different algorithms in energy consumption prediction by comparing the results of two or more algorithms on a similar dataset. For example, Li et al. \cite{bb8} compared SVM and Back Propagation Neural Network (BPNN); Borges et al. \cite{bb11} compared SVM and Autoregressive (AR) Model; Xuemei et al. \cite{bb12}  compared LS-SVM and BPNN; Liu and Chen \cite{bb13}  compared Support Vector Regression (SVR) and ANN; Penya et al. \cite{bb14}  compared AR Model, ANN,autoregressive integrated moving average(ARIMA), and Bayesian Network; Platon et al. \cite{bb15}  compared ANN and Case based Reasoning (CBR); Jain et al. \cite{bb16} compared SVM and MLR; (this paper linked from somewhere else) Hou et al. \cite{bb17}  compared ARIMA and ANN (need to download paper);  Fan et al. \cite{bb18}  compared MLR, ARIMA, SVM, RF, MLP, BT, MARS, and kNN; Chou and Bui \cite{bb19}  compared ANN, SVM, CART, CHAID, and GLR; Edwards et al. \cite{bb20}  compared MLR, FFNN, SVM, LS-SVM, HME-FFNN, and FCM-FFNN; Li et al. \cite{bb21,bb22} compared SVM, BPNN, Radial Basis Function Neural Network(RBFNN), and General Regression Neural Network (GRNN); Dagnely et al. \cite{bb23} [22] compared Ordinary Least Squared (OLS) Regression and SVR; Massana et al. \cite{bb24} compared MLR, MLP, and SVR; and Fernandez et al. \cite{bb25}  compared AR, polynomial model, ANN, and SVM.
+
+\section{Data Set}
+In order to select meaningful features to be implement Machine Learning
+or Statistical Modeling, it is necessary to analyze the given data throughly.After a comprehensive analysis, it was decided that the amount of energy
+consumption depends upon multiple factors, which are the store itself as
+all stores differs from one another as each having its particular size, different
+number of energy consuming equipments and even have different geographical
+location which affect the amount of energy consumption. Aside from that,
+time of the day is another factor as during working hours energy consumption
+is higher. There is also a reduction in power consumption
+during the day even when the store is closed.
+The data consisted of the energy readings from 227 stores with 238 sensor values (certain stores had multiple sensors) taken every 15 minute which spanned over a period of 11 months. The provided data was then throughly examined and it was subdivided into 2 main categories which were working days and non-working days as energy consumption showed different trends in both categories. Therefore, a Feature Vector was developed which consisted of respective month, hour of the day, store number, energy consumed, a tag for working day or non-working day.
+
+
 
 \section{Methodology}
 
@@ -194,6 +208,11 @@ The same dataset which was used to make confusion matrices in Fig \ref{fig:conf}
 As we can see from the comparison of Fig \ref{fig:conf} and Fig \ref{fig:ROC}, we can interpret that the performance of Statistical method which is based on Tuckey's test performed remarkably better with around 95\% similarity with manual classification but the shortcoming of this method is that the dataset should be arranged in a proper manner as a single missing values in the dataset can make the classification ineffective. Whereas, classification using Autoencoder performed adequately with around 70-75\% correlation with manually classified data but it required pre-classified data containing no anomalies.  
  
 \begin{thebibliography}{00}
+	
+\bibitem{bb0} Liping Wang, Paul Mathew, and Xiufeng Pang. Uncertainties
+in energy consumption introduced by building operations and
+weather for a medium-size office building. \textit{Energy and Buildings},
+53:152-158, 2012.
 \bibitem{bb1} X. Feng, D. Yan, and T. Hong, "Simulation of occupancy in
 buildings, energy and buildings," pp. 348-359, 2015. [Online].
 	Available: http://www.sciencedirect.com/science/article/pii/
