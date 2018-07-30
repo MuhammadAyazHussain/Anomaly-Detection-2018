@@ -92,10 +92,10 @@ Whereas, Qi et al. \cite{bb28} used stacked autoencoders to diagnose and classif
 
 \section{Methodology}
 
-\subsection{\label{sec:level1}	Data Exploration}
+\subsection{\label{sec:level1}	Data Exploration and Feature Vector Construction}
 
 In order to select meaningful features to be implement Machine Learning
-or Statistical Modeling, it was necessary to analyze the given data throughly.After a comprehensive analysis, it was decided that the amount of energy
+or Statistical Modeling, it was necessary to analyze the given data throughly. After a comprehensive analysis, it was decided that the amount of energy
 consumption depends upon multiple factors, which are the store itself as
 all stores differs from one another as each having its particular size, different
 number of energy consuming equipments and even have different geographical
@@ -107,7 +107,7 @@ The data consisted of the energy readings from 227 stores with 238 sensor values
 
 
 \subsection{\label{sec:level2}	Statistical Method for Anomaly Detection}
-In order to detect the outliers a feature vector was developed, which consisted of the hour of the day, store number, energy consumed, a tag for working and non-working day and on that data a modified version of Tuckey's test was performed, which involves the calculation of median of training data which is referred to $\mathit{Q}$2 and then again median of values lesser and greater than that of $\mathit{Q}$2  is calculated. Median of values lower than $\mathit{Q}$2  is refereed as $\mathit{Q}$1  (lower quartile) and those having greater than $\mathit{Q}$2 is referred as $\mathit{Q}$3  (upper quartile) as shown in Figure 8. 
+In order to detect the outliers, a feature vector was developed, which consisted of the hour of the day, store number, energy consumed, a tag for working and non-working day and on that data a modified version of Tuckey's test was performed, which involves the calculation of median of training data which is referred to $\mathit{Q}$2 and then again median of values lesser and greater than that of $\mathit{Q}$2  is calculated. Median of values lower than $\mathit{Q}$2  is refereed as $\mathit{Q}$1  (lower quartile) and those having greater than $\mathit{Q}$2 is referred as $\mathit{Q}$3  (upper quartile) as shown in Figure 8. 
 
 After determining $\mathit{Q}$1 and $\mathit{Q}$3, then Interquartile Range (IQR) is calculated by subtracting the value at $\mathit{Q}$3 by $\mathit{Q}$1.
 
@@ -138,7 +138,7 @@ $\mathit{\alpha}$ is the factor which varies the inner fence limits.
 	\label{fig:boat0}
 \end{figure}
 
-Any value lying beyond inner fence limits (upper and lower) can be considered as an 	outlier, and therefore, it is removed. A sample result of designed outlier detection 	algorithm is shown in Figure 3.
+Any value lying beyond inner fence limits (upper and lower) can be considered as an 	outlier, and therefore, it is removed. A sample result of designed outlier detection 	algorithm is shown in Figure \ref{fig:boat1} and \ref{fig:gull}.
 
 As the dataset used in this project was highly varied and there were several energy values that stayed the same for the whole period of time. In order to calculate the quartiles and medians, there must be at least 4 unique values in a dataset, therefore for those dataset having less unique values, some product of their respective average was used to determine Inner and Outer Fences. 
 
@@ -186,19 +186,45 @@ In case of Undercomplete autoencoders, $\mathcal{F}$ has lower dimensionality th
 In our project, the Autoencoder was trained in a semi-supervised fashion on the values of normal energy consumption data. Afterwards, the trained model was used and evaluated on a pre-trained dataset. 
 
 
-\subsection{\label{sec:level1}	Performance Comparison between Anomaly Detection and Autoencoder}
+\section{\label{sec:level1}	Experiments and Results}
+
+Outlier detection algorithm was developed and it performed adequately in removing the outliers. Figure \ref{fig:OLX} shows the energy consumption data of each hour for all working days in January 2016, where as, Figure \ref{fig:OLX1} shows the
+same data as in figure \ref{fig:OLX} after the outlier removal algorithm implemented
+on it
+\begin{figure}[H]
+	%\centering
+	\begin{subfigure}[h]{0.45\textwidth}
+		\includegraphics[width=\linewidth]{with_OL.jpg}
+		\caption{Energy Consumption by Store 105 during working days of January
+			2016 with outliers}
+		\label{fig:OLX}
+	\end{subfigure}
+	~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+	%(or a blank line to force the subfigure onto a new line)
+	\begin{subfigure}[h]{0.45\textwidth}
+		\includegraphics[width=\linewidth]{without_OL.jpg}
+		\caption{Energy Consumption during the month of January by store 105
+			without outliers}
+		\label{fig:OLX1}
+	\end{subfigure}
+	\caption{Performance of Outlier Detection Algorithm}
+	\label{fig:conf}
+\end{figure}
+
+
+
 
 In Fig \ref{fig:conf}, we are comparing the accuracy of prediction of both algorithms with manually classified energy data of two stores using confusion matrices. 
 \begin{figure}[H]
 	%\centering
-	\begin{subfigure}[h]{0.3\textwidth}
+	\begin{subfigure}[h]{0.43\textwidth}
 		\includegraphics[width=\linewidth]{conf_anomaly.jpg}
 		\caption{Confusion Matrix of Anomaly Detection Algorithm}
 		\label{fig:boat1}
 	\end{subfigure}
 	~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
 	%(or a blank line to force the subfigure onto a new line)
-	\begin{subfigure}[h]{0.3\textwidth}
+	\begin{subfigure}[h]{0.43\textwidth}
 		\includegraphics[width=\linewidth]{Conf_autoencoder.jpg}
 		\caption{Confusion Matrix of Autoencoder.}
 		\label{fig:boat2}
@@ -213,14 +239,14 @@ The same dataset which was used to make confusion matrices in Fig \ref{fig:conf}
 
 \begin{figure}[H]
 	%\centering
-	\begin{subfigure}[h]{0.3\textwidth}
+	\begin{subfigure}[h]{0.45\textwidth}
 		\includegraphics[width=\textwidth]{roc_anomaly.jpg}
 		\caption{ROC curve of Anomaly Detection Algorithm.}
 		\label{fig:gull}
 	\end{subfigure}
 	~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
 	%(or a blank line to force the subfigure onto a new line)
-	\begin{subfigure}[h]{0.3\textwidth}
+	\begin{subfigure}[h]{0.45\textwidth}
 		\includegraphics[width=\textwidth]{roc_autoencoder.jpg}
 		\caption{ROC curve of Autoencoder.}
 		\label{fig:tiger}
@@ -232,6 +258,7 @@ The same dataset which was used to make confusion matrices in Fig \ref{fig:conf}
 
 As we can see from the comparison of Fig \ref{fig:conf} and Fig \ref{fig:ROC}, we can interpret that the performance of Statistical method which is based on Tuckey's test performed remarkably better with around 95\% similarity with manual classification but the shortcoming of this method is that the dataset should be arranged in a proper manner as a single missing values in the dataset can make the classification ineffective. Whereas, classification using Autoencoder performed adequately with around 70-75\% correlation with manually classified data but it required pre-classified data containing no anomalies.  
  
+ \section{Discussion/Outlook}
 \begin{thebibliography}{00}
 	
 \bibitem{bb0} Liping Wang, Paul Mathew, and Xiufeng Pang. Uncertainties
