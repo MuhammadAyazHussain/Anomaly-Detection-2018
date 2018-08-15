@@ -9,7 +9,9 @@
 \usepackage{xcolor}
 \usepackage{float}
 \usepackage{amsmath}
-\usepackage{subcaption}
+%\usepackage{subcaption}
+%\usepackage{subfig}
+\usepackage{subfigure}
 \DeclareMathOperator*{\argmax}{arg\,max}
 \DeclareMathOperator*{\argmin}{arg\,min}
 
@@ -77,7 +79,12 @@ Presently, it is very difficult to predict the energy consumption anomalies prec
 
 Previous studies in data-driven building energy consumption prediction have utilized several methods such as Engineering methods \cite{bb4}, statistical method \cite{bb5}, Artificial Neural Networks (ANN) \cite{bb6,bb7}, support vector machines (SVM) \cite{bb8}, fuzzy logic and grey model techniques \cite{bb9}, decision trees \cite{bb10} etc. 
 
-Also there have been some studies which compared the effectiveness of different algorithms in energy consumption prediction by comparing the results of two or more algorithms on a similar dataset. For example, Li et al. \cite{bb8} compared SVM and Back Propagation Neural Network (BPNN); Borges et al. \cite{bb11} compared SVM and Autoregressive (AR) Model; Xuemei et al. \cite{bb12}  compared LS-SVM and BPNN; Liu and Chen \cite{bb13}  compared Support Vector Regression (SVR) and ANN; Penya et al. \cite{bb14}  compared AR Model, ANN,autoregressive integrated moving average(ARIMA), and Bayesian Network; Platon et al. \cite{bb15}  compared ANN and Case based Reasoning (CBR); Jain et al. \cite{bb16} compared SVM and MLR; (this paper linked from somewhere else) Hou et al. \cite{bb17}  compared ARIMA and ANN (need to download paper);  Fan et al. \cite{bb18}  compared MLR, ARIMA, SVM, RF, MLP, BT, MARS, and kNN; Chou and Bui \cite{bb19}  compared ANN, SVM, CART, CHAID, and GLR; Edwards et al. \cite{bb20}  compared MLR, FFNN, SVM, LS-SVM, HME-FFNN, and FCM-FFNN; Li et al. \cite{bb21,bb22} compared SVM, BPNN, Radial Basis Function Neural Network(RBFNN), and General Regression Neural Network (GRNN); Dagnely et al. \cite{bb23} [22] compared Ordinary Least Squared (OLS) Regression and SVR; Massana et al. \cite{bb24} compared MLR, MLP, and SVR; and Fernandez et al. \cite{bb25}  compared AR, polynomial model, ANN, and SVM.
+Also there have been some studies which compared the effectiveness of different algorithms in energy consumption prediction by comparing the results of two or more algorithms on a similar dataset. For example, Li et al. \cite{bb8} compared SVM and Back Propagation Neural Network (BPNN); Borges et al. \cite{bb11} compared SVM and Autoregressive (AR) Model; Xuemei et al. \cite{bb12}  compared LS-SVM and BPNN; Liu and Chen \cite{bb13}  compared Support Vector Regression (SVR) and ANN; Penya et al. \cite{bb14}  compared AR Model, ANN,autoregressive integrated moving average (ARIMA), and Bayesian Network; Platon et al. \cite{bb15}  compared ANN and Case based Reasoning (CBR); Jain et al. \cite{bb16} compared SVM and MLR; (this paper linked from somewhere else) Hou et al. \cite{bb17}  compared ARIMA and ANN (need to download paper);  Fan et al. \cite{bb18}  compared MLR, ARIMA, SVM, RF, MLP, BT, MARS, and kNN; Chou and Bui \cite{bb19}  compared ANN, SVM, CART, CHAID, and GLR; Edwards et al. \cite{bb20}  compared MLR, FFNN, SVM, LS-SVM, HME-FFNN, and FCM-FFNN; Li et al. \cite{bb21,bb22} compared SVM, BPNN, Radial Basis Function Neural Network(RBFNN), and General Regression Neural Network (GRNN); Dagnely et al. \cite{bb23} [22] compared Ordinary Least Squared (OLS) Regression and SVR; Massana et al. \cite{bb24} compared MLR, MLP, and SVR; and Fernandez et al. \cite{bb25}  compared AR, polynomial model, ANN, and SVM.
+
+A hybrid neural net ARIMA have been used by Chou et al.\cite{bb29} to detect anomalies in the power consumption in an office space. In another paper, Capozolli et al. \cite{bb30} used Classification and Regression Tree (CART), K-Mean clustering, Artificial neural networks and basic ensembling method (ANN BEM) and Outlier Detection methods such as Generalized Extreme Studentized Deviation (GESD) and Peak detection method on a building cluster.
+
+
+
 
 As far as the use of autoencoder for classification is concerned, those have been used in previous works for classification tasks such as Fan et al.\cite{bb26} which used autoencoder based unsupervised anomaly detection method on a building energy data on a single facility which was in detail as several variables were considered.
 
@@ -181,6 +188,8 @@ Autoencoders are also trained to minimise reconstruction errors (such as squared
 where, $x$ is usually averaged over some input training set.
 
 If the feature space $\mathcal{F}$  has lower dimensionality than the input space $\mathcal{X}$, then the feature vector $\phi(x)$ can be regarded as a compressed representation of the input $x$.  If the hidden layers are larger than the input layer, an autoencoder can potentially learn the identity function and become useless. However, experimental results have shown that autoencoders might still learn useful features in these cases.
+
+
 In case of Undercomplete autoencoders, $\mathcal{F}$ has lower dimensionality than the input space $\mathcal{X}$, then the feature vector $\phi(x)$  can be regarded as a compressed representation of the input $x$.
 
 In our project, the Autoencoder was trained in a semi-supervised fashion on the values of normal energy consumption data. Afterwards, the trained model was used and evaluated on a pre-trained dataset. 
@@ -191,74 +200,115 @@ In our project, the Autoencoder was trained in a semi-supervised fashion on the 
 Outlier detection algorithm was developed and it performed adequately in removing the outliers. Figure \ref{fig:OLX} shows the energy consumption data of each hour for all working days in January 2016, where as, Figure \ref{fig:OLX1} shows the
 same data as in figure \ref{fig:OLX} after the outlier removal algorithm implemented
 on it
-\begin{figure}[H]
-	%\centering
-	\begin{subfigure}[h]{0.45\textwidth}
-		\includegraphics[width=\linewidth]{with_OL.jpg}
-		\caption{Energy Consumption by Store 105 during working days of January
-			2016 with outliers}
-		\label{fig:OLX}
-	\end{subfigure}
+\begin{figure*}[h]
+	\centering
+	\includegraphics[width=13cm,height=6cm]{with_OL.jpg}
+	\caption{Energy Consumption by Store 105 during working days of January
+		2016 with outliers}
+	\label{fig:OLX}
+\end{figure*}
+\begin{figure*}[h]
+	\centering
+	\includegraphics[width=13cm,height=6cm]{without_OL.jpg}
+	\caption{Energy Consumption by Store 105 during working days of January
+		2016 without outliers}
+	\label{fig:OLX1}
+\end{figure*}
+
+\begin{figure}[h]
+	\centering
+	\subfigure[ROC curve of Anomaly Detection Algorithm.]
+	{
+		\includegraphics[width=3.0in]{conf_anomaly.jpg}
+		%\caption{ROC curve of Anomaly Detection Algorithm.}
+		\label{fig:boat1}
+	}
+	\\
+	\subfigure[Confusion Matrix of Autoencoder.]
+	{
+		\includegraphics[width=3.0in]{Conf_autoencoder.jpg}
+		\label{fig:boat2}
+	}
+	\caption{Confusion Matrices}
+	\label{fig:conf}
+\end{figure}
+
+%\begin{figure}[]
+%	%\centering
+%	\begin{subfigure}{0.43\textwidth}
+%		\includegraphics[width=\linewidth]{conf_anomaly.jpg}
+%		\caption{Confusion Matrix of Anomaly Detection Algorithm}
+%		\label{fig:boat1}
+%	\end{subfigure}
+
+%	\begin{subfigure}{0.43\textwidth}
+%	\includegraphics[width=\linewidth]{Conf_autoencoder.jpg}
+%	\caption{Confusion Matrix of Autoencoder.}
+%	\label{fig:boat2}
+%\end{subfigure}
+%\caption{Confusion Matrices}
+%\label{fig:conf}
+%\end{figure}
+
+
+
+%\begin{figure}[h]
+%	\centering
+%	\begin{subfigure}{0.45\textwidth}
+%		\includegraphics[width=\textwidth]{roc_anomaly.jpg}
+%		\caption{ROC curve of Anomaly Detection Algorithm.}
+%		\label{fig:gull}
+%	\end{subfigure}
 	~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
 	%(or a blank line to force the subfigure onto a new line)
-	\begin{subfigure}[h]{0.45\textwidth}
-		\includegraphics[width=\linewidth]{without_OL.jpg}
-		\caption{Energy Consumption during the month of January by store 105
-			without outliers}
-		\label{fig:OLX1}
-	\end{subfigure}
-	\caption{Performance of Outlier Detection Algorithm}
-	\label{fig:conf}
+%	\begin{subfigure}{0.45\textwidth}
+%		\includegraphics[width=\textwidth]{roc_autoencoder.jpg}
+%		\caption{ROC curve of Autoencoder.}
+%		\label{fig:tiger}
+%	\end{subfigure}
+%	\caption{ROC curves}
+%	\label{fig:ROC}
+	
+%\end{figure}
+\begin{figure}[H]
+	\centering
+	\subfigure[ROC curve of Anomaly Detection Algorithm.]
+	{
+		\includegraphics[width=3.5in]{roc_anomaly.jpg}
+		
+		\label{fig:gull}
+	}
+	\\
+	\subfigure[ROC curve of Autoencoder.]
+	{
+		\includegraphics[width=3.5in]{roc_autoencoder.jpg}
+		\label{fig:tiger}
+	}
+	\caption{ROC curves}
+	\label{fig:ROC}
+	
 \end{figure}
 
 
 
 
 In Fig \ref{fig:conf}, we are comparing the accuracy of prediction of both algorithms with manually classified energy data of two stores using confusion matrices. 
-\begin{figure}[H]
-	%\centering
-	\begin{subfigure}[h]{0.43\textwidth}
-		\includegraphics[width=\linewidth]{conf_anomaly.jpg}
-		\caption{Confusion Matrix of Anomaly Detection Algorithm}
-		\label{fig:boat1}
-	\end{subfigure}
-	~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
-	%(or a blank line to force the subfigure onto a new line)
-	\begin{subfigure}[h]{0.43\textwidth}
-		\includegraphics[width=\linewidth]{Conf_autoencoder.jpg}
-		\caption{Confusion Matrix of Autoencoder.}
-		\label{fig:boat2}
-	\end{subfigure}
-	\caption{Confusion Matrices}
-	\label{fig:conf}
-\end{figure}
+
 
 The same dataset which was used to make confusion matrices in Fig \ref{fig:conf} is used to plot Receiver Operating Characteristics curves in Fig \ref{fig:ROC}.
 
 
 
-\begin{figure}[H]
-	%\centering
-	\begin{subfigure}[h]{0.45\textwidth}
-		\includegraphics[width=\textwidth]{roc_anomaly.jpg}
-		\caption{ROC curve of Anomaly Detection Algorithm.}
-		\label{fig:gull}
-	\end{subfigure}
-	~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
-	%(or a blank line to force the subfigure onto a new line)
-	\begin{subfigure}[h]{0.45\textwidth}
-		\includegraphics[width=\textwidth]{roc_autoencoder.jpg}
-		\caption{ROC curve of Autoencoder.}
-		\label{fig:tiger}
-	\end{subfigure}
-	\caption{ROC curves}
-	\label{fig:ROC}
-	
-\end{figure}
 
 As we can see from the comparison of Fig \ref{fig:conf} and Fig \ref{fig:ROC}, we can interpret that the performance of Statistical method which is based on Tuckey's test performed remarkably better with around 95\% similarity with manual classification but the shortcoming of this method is that the dataset should be arranged in a proper manner as a single missing values in the dataset can make the classification ineffective. Whereas, classification using Autoencoder performed adequately with around 70-75\% correlation with manually classified data but it required pre-classified data containing no anomalies.  
  
  \section{Discussion/Outlook}
+ 
+ THIS IS JUST FILLER MATERIAL 
+ 
+ In modern days, the amount of energy consumption is becoming a more serious issue as several companies and industries are addressing this issue in order to contain their expenses as unexpected variations can incur additional operational costs to their facilities. These fluctuations in electricity consumption can arise from various factors such as excessive use of heavy equipment like electric heaters in winters, room coolers during the summers etc. In order to detect such variations or anomalies, anomaly detector algorithm is designed and implemented on the provided data.
+ Presently, it is very difficult to predict the energy consumption anomalies precisely, since there are many factors influencing the energy usage, such as weather condition \cite{bb0},  occupancy \cite{bb1} and operation of appliances \cite{bb2,bb3}.
+
 \begin{thebibliography}{00}
 	
 \bibitem{bb0} Liping Wang, Paul Mathew, and Xiufeng Pang. Uncertainties
@@ -381,6 +431,11 @@ In \textit{2017 IEEE 42nd Conference on Local Computer Networks
 
 \bibitem{bb28}Y. Qi, C. Shen, D. Wang, J. Shi, X. Jiang, and Z. Zhu. Stacked
 sparse autoencoder-based deep network for fault diagnosis of rotating machinery. \textit{IEEE Access}, 5:15066-15079, 2017
+
+\bibitem{bb29}Jui-Sheng Chou and Abdi Suryadinata Telaga. Real-time detection of anomalous power consumption. \textit{Renewable and Sustainable Energy Reviews}, 33:400 -411, 2014
+
+\bibitem{bb30}Alfonso Capozzoli, Fiorella Lauro, and Imran Khan. Fault detection analysis using data mining techniques for a cluster of smart
+office buildings. \textit{Expert Systems with Applications}, 42(9):4324-4338, 2015.
 \end{thebibliography}
 
 
