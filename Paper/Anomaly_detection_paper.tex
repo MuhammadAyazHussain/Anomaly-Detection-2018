@@ -114,7 +114,7 @@ The data consisted of the energy readings from 227 stores with 238 sensor values
 
 
 \subsection{\label{sec:level2}	Statistical Method for Anomaly Detection}
-In order to detect the outliers, a feature vector was developed, which consisted of the hour of the day, store number, energy consumed, a tag for working and non-working day and on that data a modified version of Tuckey's test was performed, which involves the calculation of median of training data which is referred to $\mathit{Q}$2 and then again median of values lesser and greater than that of $\mathit{Q}$2  is calculated. Median of values lower than $\mathit{Q}$2  is refereed as $\mathit{Q}$1  (lower quartile) and those having greater than $\mathit{Q}$2 is referred as $\mathit{Q}$3  (upper quartile) as shown in Figure 8. 
+In order to detect the outliers, a feature vector was developed, which consisted of the hour of the day, store number, energy consumed, a tag for working and non-working day and on that data a modified version of Tukey's test \cite{bb31} was performed, which involves the calculation of median of training data which is referred to $\mathit{Q}$2 and then again median of values lesser and greater than that of $\mathit{Q}$2  is calculated. Median of values lower than $\mathit{Q}$2  is refereed as $\mathit{Q}$1  (lower quartile) and those having greater than $\mathit{Q}$2 is referred as $\mathit{Q}$3  (upper quartile) as shown in Figure 8. 
 
 After determining $\mathit{Q}$1 and $\mathit{Q}$3, then Interquartile Range (IQR) is calculated by subtracting the value at $\mathit{Q}$3 by $\mathit{Q}$1.
 
@@ -125,7 +125,7 @@ After determining $\mathit{Q}$1 and $\mathit{Q}$3, then Interquartile Range (IQR
 IQR = Q3 - Q1
 \end{equation}
 
-After calculating the IQR, we use it to calculate the Tuckey's Fences or Inner Fences by the following equation,
+After calculating the IQR, we use it to calculate the Tukey's Fences or Inner Fences by the following equation,
 
 \begin{equation}
 InnerFenceLowerLimit = Q1 - \alpha (IQR)
@@ -300,7 +300,7 @@ The same dataset which was used to make confusion matrices in Fig \ref{fig:conf}
 
 
 
-As we can see from the comparison of Fig \ref{fig:conf} and Fig \ref{fig:ROC}, we can interpret that the performance of Statistical method which is based on Tuckey's test performed remarkably better with around 95\% similarity with manual classification but the shortcoming of this method is that the dataset should be arranged in a proper manner as a single missing values in the dataset can make the classification ineffective. Whereas, classification using Autoencoder performed adequately with around 70-75\% correlation with manually classified data but it required pre-classified data containing no anomalies.  
+As we can see from the comparison of Fig \ref{fig:conf} and Fig \ref{fig:ROC}, we can interpret that the performance of Statistical method which is based on Tukey's test performed remarkably better with around 95\% similarity with manual classification but the shortcoming of this method is that the dataset should be arranged in a proper manner as a single missing values in the dataset can make the classification ineffective. Whereas, classification using Autoencoder performed adequately with around 70-75\% correlation with manually classified data but it required pre-classified data containing no anomalies.  
  
  \section{Discussion/Outlook/Conclusion/Future Work}
  
@@ -436,6 +436,9 @@ sparse autoencoder-based deep network for fault diagnosis of rotating machinery.
 
 \bibitem{bb30}Alfonso Capozzoli, Fiorella Lauro, and Imran Khan. Fault detection analysis using data mining techniques for a cluster of smart
 office buildings. \textit{Expert Systems with Applications}, 42(9):4324-4338, 2015.
+
+\bibitem{bb31}Robert Mcgill, John W. Tukey, and Wayne A. Larsen. Variations
+of box plots.\textit{The American Statistician}, 32(1):12-16, 1978.
 \end{thebibliography}
 
 
