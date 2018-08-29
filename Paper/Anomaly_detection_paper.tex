@@ -62,7 +62,7 @@ email address}
 \maketitle
 
 \begin{abstract}
-This paper is concerned about the use of unsupervised learning (semi-supervised) algorithms in power consumption data, as well as the comparison of the performance between statistical method and Undercomplete Autoencoder in classification. As power consumption varies over time, therefore the labeled data created by that, becomes obsolete over times. Therefore, supervised learning is not a viable method in the prediction of energy consumption.
+This paper is concerned about the use of unsupervised learning (semi-supervised) algorithms in power consumption data, as well as the comparison of the performance between statistical method and Undercomplete Autoencoder in classification. As power consumption varies over time, therefore the labeled data created by that, becomes obsolete over times. Therefore, supervised learning is not a viable method in the prediction of energy consumption over a long period of time.
 %This document is a model and instructions for \LaTeX.
 
 \end{abstract}
@@ -72,12 +72,12 @@ This paper is concerned about the use of unsupervised learning (semi-supervised)
 %\end{IEEEkeywords}
 
 \section{Introduction}
-In modern days, the amount of energy consumption is becoming a more serious issue as several companies and industries are addressing this issue in order to contain their expenses as unexpected variations can incur additional operational costs to their facilities. These fluctuations in electricity consumption can arise from various factors such as excessive use of heavy equipment like electric heaters in winters, room coolers during the summers etc. In order to detect such variations or anomalies, anomaly detector algorithm is designed and implemented on the provided data.
+In modern days, the amount of energy consumption is becoming a more serious issue as several companies and industries are addressing this issue in order to contain their expenses as unexpected variations can incur additional operational costs to their facilities. These fluctuations in electricity consumption can arise from various factors such as excessive use of heavy equipment like electric heaters in winters, room coolers during the summers etc. In order to detect and classify unusual amount of power consumption, outlier detection algorithm is designed and implemented on the provided data and compared its classification efficiency against a semi-supervised autoencoder.
 Presently, it is very difficult to predict the energy consumption anomalies precisely, since there are many factors influencing the energy usage, such as weather condition \cite{bb0},  occupancy \cite{bb1} and operation of appliances \cite{bb2,bb3}. 
 
 \section{Related Works}
 
-Previous studies in data-driven building energy consumption prediction have utilized several methods such as Engineering methods \cite{bb4}, statistical method \cite{bb5}, Artificial Neural Networks (ANN) \cite{bb6,bb7}, support vector machines (SVM) \cite{bb8}, fuzzy logic and grey model techniques \cite{bb9}, decision trees \cite{bb10} etc. 
+Previous studies in data-driven building energy consumption prediction have utilized several methods such as engineering methods \cite{bb4}, statistical method \cite{bb5}, Artificial Neural Networks (ANN) \cite{bb6,bb7}, Support Vector Machines (SVM) \cite{bb8}, fuzzy logic and grey model techniques \cite{bb9}, decision trees \cite{bb10} etc. 
 
 Also there have been some studies which compared the effectiveness of different algorithms in energy consumption prediction by comparing the results of two or more algorithms on a similar dataset. For example, Li et al. \cite{bb8} compared SVM and Back Propagation Neural Network (BPNN); Borges et al. \cite{bb11} compared SVM and Autoregressive (AR) Model; Xuemei et al. \cite{bb12}  compared LS-SVM and BPNN; Liu and Chen \cite{bb13}  compared Support Vector Regression (SVR) and ANN; Penya et al. \cite{bb14}  compared AR Model, ANN,autoregressive integrated moving average (ARIMA), and Bayesian Network; Platon et al. \cite{bb15}  compared ANN and Case based Reasoning (CBR); Jain et al. \cite{bb16} compared SVM and MLR; (this paper linked from somewhere else) Hou et al. \cite{bb17}  compared ARIMA and ANN (need to download paper);  Fan et al. \cite{bb18}  compared MLR, ARIMA, SVM, RF, MLP, BT, MARS, and kNN; Chou and Bui \cite{bb19}  compared ANN, SVM, CART, CHAID, and GLR; Edwards et al. \cite{bb20}  compared MLR, FFNN, SVM, LS-SVM, HME-FFNN, and FCM-FFNN; Li et al. \cite{bb21,bb22} compared SVM, BPNN, Radial Basis Function Neural Network(RBFNN), and General Regression Neural Network (GRNN); Dagnely et al. \cite{bb23} [22] compared Ordinary Least Squared (OLS) Regression and SVR; Massana et al. \cite{bb24} compared MLR, MLP, and SVR; and Fernandez et al. \cite{bb25}  compared AR, polynomial model, ANN, and SVM.
 
@@ -113,7 +113,7 @@ during the day even when the store is closed.
 The data consisted of the energy readings from 227 stores with 238 sensor values (certain stores had multiple sensors) taken every 15 minute which spanned over a period of 11 months. The provided data was then throughly examined and it was subdivided into 2 main categories which were working days and non-working days as energy consumption showed different trends in both categories. Therefore, a Feature Vector was developed which consisted of respective month, hour of the day, store number, energy consumed, a tag for working day or non-working day.
 
 
-\subsection{\label{sec:level2}	Statistical Method for Anomaly Detection}
+\subsection{\label{sec:level2}	Statistical Method for Outlier Detection}
 In order to detect the outliers, a feature vector was developed, which consisted of the hour of the day, store number, energy consumed, a tag for working and non-working day and on that data a modified version of Tukey's test \cite{bb31} was performed, which involves the calculation of median of training data which is referred to $\mathit{Q}$2 and then again median of values lesser and greater than that of $\mathit{Q}$2  is calculated. Median of values lower than $\mathit{Q}$2  is refereed as $\mathit{Q}$1  (lower quartile) and those having greater than $\mathit{Q}$2 is referred as $\mathit{Q}$3  (upper quartile) as shown in Figure 8. 
 
 After determining $\mathit{Q}$1 and $\mathit{Q}$3, then Interquartile Range (IQR) is calculated by subtracting the value at $\mathit{Q}$3 by $\mathit{Q}$1.
@@ -149,7 +149,7 @@ Any value lying beyond inner fence limits (upper and lower) can be considered as
 
 As the dataset used in this project was highly varied and there were several energy values that stayed the same for the whole period of time. In order to calculate the quartiles and medians, there must be at least 4 unique values in a dataset, therefore for those dataset having less unique values, some product of their respective average was used to determine Inner and Outer Fences. 
 
-\subsection{\label{sec:level3}	Autoencoders for Anomaly Detection}
+\subsection{\label{sec:level3}	Autoencoder}
 
 An autoencoder always consists of two parts, the encoder and the decoder, which can be defined 	as transitions $\phi$ and $\psi$ such that:
 
@@ -179,7 +179,7 @@ This image $\mathbf {z} $  is usually referred to as \textit{code}, \textit{late
 
 where, $\sigma^{\prime}$, $W^{\prime}$ and $b^{\prime}$ for the decoder may differ in general from the corresponding $\sigma$, $W$ and $b$ for the encoder, depending on the design of the autoencoder.
 
-Autoencoders are also trained to minimise reconstruction errors (such as squared errors):
+Autoencoders are also trained to minimize reconstruction errors (such as squared errors):
 
 \begin{equation}
 \mathcal{L}(x,x^{\prime}) = \|x- \sigma^{\prime}(W^{\prime}(\sigma(Wx+b))+b^{\prime})\|^2
@@ -192,14 +192,14 @@ If the feature space $\mathcal{F}$  has lower dimensionality than the input spac
 
 In case of Undercomplete autoencoders, $\mathcal{F}$ has lower dimensionality than the input space $\mathcal{X}$, then the feature vector $\phi(x)$  can be regarded as a compressed representation of the input $x$.
 
-In our project, the Autoencoder was trained in a semi-supervised fashion on the values of normal energy consumption data. Afterwards, the trained model was used and evaluated on a pre-trained dataset. 
+In our project, an undercomplete autoencoder was trained in a semi-supervised fashion on the values of normal energy consumption data. Afterwards, the trained model was used and evaluated on a pre-trained dataset. 
 
 
 \section{\label{sec:level1}	Experiments and Results}
 
-Outlier detection algorithm was developed and it performed adequately in removing the outliers. Figure \ref{fig:OLX} shows the energy consumption data of each hour for all working days in January 2016, where as, Figure \ref{fig:OLX1} shows the
+Outlier detection algorithm was developed and it performed adequately well in removing the outliers. Figure \ref{fig:OLX} shows the energy consumption data of each hour for all working days in January 2016, where as, figure \ref{fig:OLX1} shows the
 same data as in figure \ref{fig:OLX} after the outlier removal algorithm implemented
-on it
+on it.
 \begin{figure*}[h]
 	\centering
 	\includegraphics[width=13cm,height=6cm]{with_OL.jpg}
@@ -300,7 +300,7 @@ The same dataset which was used to make confusion matrices in Fig \ref{fig:conf}
 
 
 
-As we can see from the comparison of Fig \ref{fig:conf} and Fig \ref{fig:ROC}, we can interpret that the performance of Statistical method which is based on Tukey's test performed remarkably better with around 95\% similarity with manual classification but the shortcoming of this method is that the dataset should be arranged in a proper manner as a single missing values in the dataset can make the classification ineffective. Whereas, classification using Autoencoder performed adequately with around 70-75\% correlation with manually classified data but it required pre-classified data containing no anomalies.  
+As we can see from the comparison of Fig \ref{fig:conf} and Fig \ref{fig:ROC}, we can interpret that the performance of Statistical method which is based on Tukey's test performed remarkably better with around 95\% correlation with manual classification but the shortcoming of this method is that the dataset should be arranged in a proper manner as a single missing values in the dataset can make the classification ineffective. Whereas, classification using Autoencoder performed adequately with around 70-75\% correlation with manually classified data but it required pre-classified data containing no anomalies.  
  
  \section{Discussion/Outlook/Conclusion/Future Work}
  
