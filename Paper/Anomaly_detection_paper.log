@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.24)  29 AUG 2018 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.24)  1 OCT 2018 15:47
 entering extended mode
 **./Anomaly_detection_paper.tex
 (Anomaly_detection_paper.tex
@@ -612,6 +612,9 @@ Overfull \hbox (7.94511pt too wide) in paragraph at lines 286--287
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./roc_anomaly.jpg> <./roc_autoencoder.jpg>]
 Underfull \hbox (badness 1622) in paragraph at lines 326--330
 \OT1/ptm/m/n/8 en-ergy and en-vi-ron-men-tal data," \OT1/ptm/m/it/8 En-ergy and
  Build-ings\OT1/ptm/m/n/8 , vol. 94,
@@ -622,7 +625,7 @@ Underfull \hbox (badness 1584) in paragraph at lines 345--349
 []\OT1/ptm/m/n/8 A. Ku-siak, M. Li, and Z. Zhang, "A data-driven ap-proach for
  []
 
-[3 <./roc_anomaly.jpg> <./roc_autoencoder.jpg>]
+
 Underfull \hbox (badness 2096) in paragraph at lines 354--359
 \OT1/ptm/m/n/8 sump-tion pre-dic-tion of do-mes-tic heat pump wa-ter heater bas
 ed
@@ -634,6 +637,7 @@ Underfull \hbox (badness 1701) in paragraph at lines 354--359
 \OT1/ptm/m/n/8 , vol. 43, no. 6,
  []
 
+[4 <./with_OL.jpg> <./without_OL.jpg>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -666,7 +670,7 @@ Underfull \hbox (badness 4673) in paragraph at lines 391--395
 
  []
 
-[4 <./with_OL.jpg> <./without_OL.jpg>]
+
 Underfull \hbox (badness 1454) in paragraph at lines 417--422
 []\OT1/ptm/m/n/8 J. Mas-sana, C. Pous, L. Bur-gas, J. Me-len-dez, and J. Colome
 r,
@@ -727,7 +731,7 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.
 onts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Anomaly_detection_paper.pdf (5 pages, 450740 bytes).
+Output written on Anomaly_detection_paper.pdf (5 pages, 450753 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

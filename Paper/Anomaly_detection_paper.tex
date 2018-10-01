@@ -101,16 +101,16 @@ Whereas, Qi et al. \cite{bb28} used stacked autoencoders to diagnose and classif
 
 \subsection{\label{sec:level1}	Data Exploration and Feature Vector Construction}
 
-In order to select meaningful features to be implement Machine Learning
-or Statistical Modeling, it was necessary to analyze the given data throughly. After a comprehensive analysis, it was decided that the amount of energy
+In order to select meaningful features to be implemented in Machine Learning
+or Statistical Modeling algorithms, it was necessary to analyze the given data throughly. After a comprehensive analysis, it was decided that the amount of energy
 consumption depends upon multiple factors, which are the store itself as
 all stores differs from one another as each having its particular size, different
 number of energy consuming equipments and even have different geographical
 location which affect the amount of energy consumption. Aside from that,
 time of the day is another factor as during working hours energy consumption
-is higher. There is also a reduction in power consumption
-during the day even when the store is closed.
-The data consisted of the energy readings from 227 stores with 238 sensor values (certain stores had multiple sensors) taken every 15 minute which spanned over a period of 11 months. The provided data was then throughly examined and it was subdivided into 2 main categories which were working days and non-working days as energy consumption showed different trends in both categories. Therefore, a Feature Vector was developed which consisted of respective month, hour of the day, store number, energy consumed, a tag for working day or non-working day.
+is higher. There is also a reduction in power consumption during the day even when the store is closed.
+
+The data consisted of the energy readings from 227 different stores with 238 sensor values (as certain stores had multiple sensors) taken every 15 minute which spanned over a period of 11 months. The provided data was then throughly examined and it was subdivided into 2 main categories which were working days and non-working days as energy consumption showed different trends in both categories. Therefore, a Feature Vector was developed which consisted of respective month, hour of the day, store number, energy consumed, a tag for working day or non-working day. As the data was gathered from the sensors in the real world therefore, it was highly unbalanced  outliers estimated to be around 2-5\% of the total dataset.
 
 
 \subsection{\label{sec:level2}	Statistical Method for Outlier Detection}
