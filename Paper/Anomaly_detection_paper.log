@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.24)  4 OCT 2018 15:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.24)  8 OCT 2018 15:20
 entering extended mode
 **./Anomaly_detection_paper.tex
 (Anomaly_detection_paper.tex
@@ -536,6 +536,7 @@ LaTeX Font Warning: Command \boldmath invalid in math mode on input line 180.
 LaTeX Font Warning: Command \mathversion invalid in math mode on input line 180
 .
 
+[2 <./IQR.jpg>]
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <> not available
 (Font)              size <5> substituted on input line 181.
@@ -560,57 +561,42 @@ LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.7> not available
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.5> not available
 (Font)              size <5> substituted on input line 181.
 
-[2 <./IQR.jpg>]
-<with_OL.jpg, id=23, 766.36313pt x 359.09157pt>
+<with_OL.jpg, id=22, 766.36313pt x 359.09157pt>
 File: with_OL.jpg Graphic file (type jpg)
 <use with_OL.jpg>
 Package pdftex.def Info: with_OL.jpg  used on input line 208.
-(pdftex.def)             Requested size: 369.88484pt x 170.7182pt.
-<without_OL.jpg, id=24, 766.36313pt x 432.11438pt>
+(pdftex.def)             Requested size: 369.88484pt x 156.49396pt.
+<without_OL.jpg, id=23, 766.36313pt x 432.11438pt>
 File: without_OL.jpg Graphic file (type jpg)
 <use without_OL.jpg>
 Package pdftex.def Info: without_OL.jpg  used on input line 215.
-(pdftex.def)             Requested size: 369.88484pt x 170.71297pt.
+(pdftex.def)             Requested size: 369.88484pt x 156.49074pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<conf_anomaly.jpg, id=25, 243.309pt x 245.718pt>
+<conf_anomaly.jpg, id=24, 243.309pt x 245.718pt>
 File: conf_anomaly.jpg Graphic file (type jpg)
 <use conf_anomaly.jpg>
 Package pdftex.def Info: conf_anomaly.jpg  used on input line 228.
-(pdftex.def)             Requested size: 216.81pt x 218.96577pt.
-<Conf_autoencoder.jpg, id=26, 232.4685pt x 238.491pt>
+(pdftex.def)             Requested size: 144.54pt x 145.97717pt.
+<Conf_autoencoder.jpg, id=25, 232.4685pt x 238.491pt>
 File: Conf_autoencoder.jpg Graphic file (type jpg)
 <use Conf_autoencoder.jpg>
 Package pdftex.def Info: Conf_autoencoder.jpg  used on input line 234.
-(pdftex.def)             Requested size: 216.81pt x 222.43843pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<roc_anomaly.jpg, id=27, 278.84175pt x 177.66376pt>
+(pdftex.def)             Requested size: 144.54pt x 148.29228pt.
+<roc_anomaly.jpg, id=26, 278.84175pt x 177.66376pt>
 File: roc_anomaly.jpg Graphic file (type jpg)
 <use roc_anomaly.jpg>
 Package pdftex.def Info: roc_anomaly.jpg  used on input line 283.
-(pdftex.def)             Requested size: 252.94499pt x 161.17003pt.
-
-Overfull \hbox (7.94511pt too wide) in paragraph at lines 283--284
- [][] 
- []
-
-<roc_autoencoder.jpg, id=28, 277.63725pt x 177.66376pt>
+(pdftex.def)             Requested size: 216.81pt x 138.14612pt.
+<roc_autoencoder.jpg, id=27, 277.63725pt x 177.66376pt>
 File: roc_autoencoder.jpg Graphic file (type jpg)
 <use roc_autoencoder.jpg>
 Package pdftex.def Info: roc_autoencoder.jpg  used on input line 289.
-(pdftex.def)             Requested size: 252.94499pt x 161.86945pt.
-
-Overfull \hbox (7.94511pt too wide) in paragraph at lines 289--290
- [][] 
- []
-
+(pdftex.def)             Requested size: 216.81pt x 138.74524pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -637,7 +623,10 @@ Underfull \hbox (badness 1701) in paragraph at lines 357--362
 \OT1/ptm/m/n/8 , vol. 43, no. 6,
  []
 
-[4 <./with_OL.jpg> <./without_OL.jpg>]
+
+Underfull \vbox (badness 1831) has occurred while \output is active []
+
+ [4 <./with_OL.jpg> <./without_OL.jpg>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -711,11 +700,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  4672 strings out of 493305
  67281 string characters out of 3138874
- 133727 words of memory out of 3000000
+ 137727 words of memory out of 3000000
  8141 multiletter control sequences out of 15000+200000
  41578 words of font info for 92 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,35p,1311b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,8n,35p,1679b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb><C:/Program Files/MiKTeX 2.9/f
@@ -731,7 +720,7 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.
 onts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Anomaly_detection_paper.pdf (5 pages, 450999 bytes).
+Output written on Anomaly_detection_paper.pdf (5 pages, 451042 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
