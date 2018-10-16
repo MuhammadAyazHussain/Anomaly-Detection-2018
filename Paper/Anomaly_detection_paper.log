@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.24)  8 OCT 2018 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.24)  16 OCT 2018 18:42
 entering extended mode
 **./Anomaly_detection_paper.tex
 (Anomaly_detection_paper.tex
@@ -445,234 +445,266 @@ G,.JBIG2,.JB2,.eps]
 
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 120.
+<All_stores.jpg, id=9, 1253.68375pt x 526.96875pt>
+File: All_stores.jpg Graphic file (type jpg)
+<use All_stores.jpg>
+Package pdftex.def Info: All_stores.jpg  used on input line 119.
+(pdftex.def)             Requested size: 369.89088pt x 156.4917pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<jan_all_stores.jpg, id=10, 1487.5575pt x 526.96875pt>
+File: jan_all_stores.jpg Graphic file (type jpg)
+<use jan_all_stores.jpg>
+Package pdftex.def Info: jan_all_stores.jpg  used on input line 130.
+(pdftex.def)             Requested size: 369.89102pt x 156.4917pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<store_105_all.jpg, id=11, 1253.68375pt x 526.96875pt>
+File: store_105_all.jpg Graphic file (type jpg)
+<use store_105_all.jpg>
+Package pdftex.def Info: store_105_all.jpg  used on input line 141.
+(pdftex.def)             Requested size: 369.89088pt x 156.4917pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<store_105_jan.jpg, id=12, 1487.5575pt x 526.96875pt>
+File: store_105_jan.jpg Graphic file (type jpg)
+<use store_105_jan.jpg>
+Package pdftex.def Info: store_105_jan.jpg  used on input line 154.
+(pdftex.def)             Requested size: 369.89102pt x 156.4917pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 172.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 120.
+LaTeX Font Info:    Try loading font information for U+msb on input line 172.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<IQR.jpg, id=9, 346.29375pt x 130.23656pt>
+<IQR.jpg, id=13, 346.29375pt x 130.23656pt>
 File: IQR.jpg Graphic file (type jpg)
 <use IQR.jpg>
-Package pdftex.def Info: IQR.jpg  used on input line 145.
+Package pdftex.def Info: IQR.jpg  used on input line 197.
 (pdftex.def)             Requested size: 252.0pt x 94.77579pt.
 
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 174.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 226.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 174
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 226
 .
 
-LaTeX Font Info:    Calculating math sizes for size <> on input line 175.
+[2]
+LaTeX Font Info:    Calculating math sizes for size <> on input line 227.
+
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <> not available
-(Font)              size <5> substituted on input line 175.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 175.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 175.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
-(Font)              size <5> substituted on input line 175.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 175.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 175.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 175.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 175.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 175.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <> not available
-(Font)              size <5> substituted on input line 175.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 175.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 175.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <> not available
-(Font)              size <5> substituted on input line 175.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 175.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 175.
+(Font)              size <5> substituted on input line 227.
 
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 180.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 232.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 180
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 232
 .
 
-[2 <./IQR.jpg>]
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <> not available
-(Font)              size <5> substituted on input line 181.
+(Font)              size <5> substituted on input line 233.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 181.
+(Font)              size <5> substituted on input line 233.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 181.
+(Font)              size <5> substituted on input line 233.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <> not available
-(Font)              size <5> substituted on input line 181.
+(Font)              size <5> substituted on input line 233.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 181.
+(Font)              size <5> substituted on input line 233.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 181.
+(Font)              size <5> substituted on input line 233.
 
-<with_OL.jpg, id=22, 766.36313pt x 359.09157pt>
-File: with_OL.jpg Graphic file (type jpg)
-<use with_OL.jpg>
-Package pdftex.def Info: with_OL.jpg  used on input line 208.
-(pdftex.def)             Requested size: 369.88484pt x 156.49396pt.
-<without_OL.jpg, id=23, 766.36313pt x 432.11438pt>
-File: without_OL.jpg Graphic file (type jpg)
-<use without_OL.jpg>
-Package pdftex.def Info: without_OL.jpg  used on input line 215.
-(pdftex.def)             Requested size: 369.88484pt x 156.49074pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+<xxx.jpg, id=23, 1792.6975pt x 526.96875pt>
+File: xxx.jpg Graphic file (type jpg)
+<use xxx.jpg>
+Package pdftex.def Info: xxx.jpg  used on input line 260.
+(pdftex.def)             Requested size: 369.8852pt x 156.4917pt.
+<yyy.jpg, id=24, 1792.6975pt x 526.96875pt>
+File: yyy.jpg Graphic file (type jpg)
+<use yyy.jpg>
+Package pdftex.def Info: yyy.jpg  used on input line 267.
+(pdftex.def)             Requested size: 369.8852pt x 156.4917pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<conf_anomaly.jpg, id=24, 243.309pt x 245.718pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<conf_anomaly.jpg, id=25, 243.309pt x 245.718pt>
 File: conf_anomaly.jpg Graphic file (type jpg)
 <use conf_anomaly.jpg>
-Package pdftex.def Info: conf_anomaly.jpg  used on input line 228.
+Package pdftex.def Info: conf_anomaly.jpg  used on input line 280.
 (pdftex.def)             Requested size: 144.54pt x 145.97717pt.
-<Conf_autoencoder.jpg, id=25, 232.4685pt x 238.491pt>
+<Conf_autoencoder.jpg, id=26, 232.4685pt x 238.491pt>
 File: Conf_autoencoder.jpg Graphic file (type jpg)
 <use Conf_autoencoder.jpg>
-Package pdftex.def Info: Conf_autoencoder.jpg  used on input line 234.
+Package pdftex.def Info: Conf_autoencoder.jpg  used on input line 286.
 (pdftex.def)             Requested size: 144.54pt x 148.29228pt.
-<roc_anomaly.jpg, id=26, 278.84175pt x 177.66376pt>
+<roc_anomaly.jpg, id=27, 278.84175pt x 177.66376pt>
 File: roc_anomaly.jpg Graphic file (type jpg)
 <use roc_anomaly.jpg>
-Package pdftex.def Info: roc_anomaly.jpg  used on input line 283.
+Package pdftex.def Info: roc_anomaly.jpg  used on input line 335.
 (pdftex.def)             Requested size: 216.81pt x 138.14612pt.
-<roc_autoencoder.jpg, id=27, 277.63725pt x 177.66376pt>
+<roc_autoencoder.jpg, id=28, 277.63725pt x 177.66376pt>
 File: roc_autoencoder.jpg Graphic file (type jpg)
 <use roc_autoencoder.jpg>
-Package pdftex.def Info: roc_autoencoder.jpg  used on input line 289.
+Package pdftex.def Info: roc_autoencoder.jpg  used on input line 341.
 (pdftex.def)             Requested size: 216.81pt x 138.74524pt.
+[3 <./All_stores.jpg> <./jan_all_stores.jpg>]
+Overfull \vbox (184.1864pt too high) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./roc_anomaly.jpg> <./roc_autoencoder.jpg>]
-Underfull \hbox (badness 1622) in paragraph at lines 329--333
+[4 <./store_105_all.jpg> <./store_105_jan.jpg> <./IQR.jpg> <./roc_anomaly.jpg> 
+<./roc_autoencoder.jpg>]
+Underfull \hbox (badness 1622) in paragraph at lines 381--385
 \OT1/ptm/m/n/8 en-ergy and en-vi-ron-men-tal data," \OT1/ptm/m/it/8 En-ergy and
  Build-ings\OT1/ptm/m/n/8 , vol. 94,
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 348--352
+Underfull \hbox (badness 1584) in paragraph at lines 400--404
 []\OT1/ptm/m/n/8 A. Ku-siak, M. Li, and Z. Zhang, "A data-driven ap-proach for
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 357--362
+Underfull \hbox (badness 2096) in paragraph at lines 409--414
 \OT1/ptm/m/n/8 sump-tion pre-dic-tion of do-mes-tic heat pump wa-ter heater bas
 ed
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 357--362
+Underfull \hbox (badness 1701) in paragraph at lines 409--414
 \OT1/ptm/m/n/8 on grey sys-tem the-ory," \OT1/ptm/m/it/8 En-ergy and Build-ings
 \OT1/ptm/m/n/8 , vol. 43, no. 6,
  []
 
-
-Underfull \vbox (badness 1831) has occurred while \output is active []
-
- [4 <./with_OL.jpg> <./without_OL.jpg>]
+[5 <./xxx.jpg> <./yyy.jpg>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Underfull \hbox (badness 1354) in paragraph at lines 378--384
+Underfull \hbox (badness 1354) in paragraph at lines 430--436
 \OT1/ptm/m/it/8 and Build-ings\OT1/ptm/m/n/8 , vol. 92, pp. 10 - 18, 2015. [On-
 line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 390--394
+Underfull \hbox (badness 1888) in paragraph at lines 442--446
 []\OT1/ptm/m/n/8 Z. Hou, Z. Lian, Y. Yao, and X. Yuan, "Cooling-load pre-dic-
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 390--394
+Underfull \hbox (badness 2318) in paragraph at lines 442--446
 \OT1/ptm/m/n/8 83, no. 9, pp. 1033 - 1046, 2006. [On-line]. Avail-able: http://
 
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 394--398
+Underfull \hbox (badness 1803) in paragraph at lines 446--450
 \OT1/ptm/m/n/8 mand us-ing data min-ing tech-niques," \OT1/ptm/m/it/8 Ap-plied 
 En-ergy\OT1/ptm/m/n/8 , vol. 127,
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 394--398
+Underfull \hbox (badness 4673) in paragraph at lines 446--450
 \OT1/ptm/m/n/8 pp. 1 - 10, 2014. [On-line]. Avail-able: http://www. sci-encedi-
 
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 420--425
+Underfull \hbox (badness 1454) in paragraph at lines 472--477
 []\OT1/ptm/m/n/8 J. Mas-sana, C. Pous, L. Bur-gas, J. Me-len-dez, and J. Colome
 r,
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 420--425
+Underfull \hbox (badness 3713) in paragraph at lines 472--477
 \OT1/ptm/m/n/8 "Short-term load fore-cast-ing in a non-residential build-ing co
 n-
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 420--425
+Underfull \hbox (badness 2600) in paragraph at lines 472--477
 \OT1/ptm/m/n/8 trast-ing mod-els and at-tributes," \OT1/ptm/m/it/8 En-ergy and 
 Build-ings\OT1/ptm/m/n/8 , vol. 92,
  []
@@ -688,7 +720,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5 <./conf_anomaly.jpg> <./Conf_autoencoder.jpg>] (Anomaly_detection_paper.aux)
+[6 <./conf_anomaly.jpg> <./Conf_autoencoder.jpg>] (Anomaly_detection_paper.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
@@ -698,10 +730,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4672 strings out of 493305
- 67281 string characters out of 3138874
- 137727 words of memory out of 3000000
- 8141 multiletter control sequences out of 15000+200000
+ 4696 strings out of 493305
+ 67706 string characters out of 3138874
+ 138759 words of memory out of 3000000
+ 8161 multiletter control sequences out of 15000+200000
  41578 words of font info for 92 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,35p,1679b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -720,9 +752,9 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.
 onts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Anomaly_detection_paper.pdf (5 pages, 451042 bytes).
+Output written on Anomaly_detection_paper.pdf (6 pages, 958527 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
+ 97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
