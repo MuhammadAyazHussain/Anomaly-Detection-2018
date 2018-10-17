@@ -1,0 +1,433 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+
+\bibitem[\protect\citeauthoryear{Borges, Penya, Fernández, Prieto, and
+  Bretos}{Borges et~al\mbox{.}}{2013}]%
+        {en6042110}
+{Cruz~E. Borges}, {Yoseba~K. Penya}, {Iván Fernández}, {Juan Prieto}, {and}
+  {Oscar Bretos}. 2013.
+\newblock \showarticletitle{Assessing Tolerance-Based Robust Short-Term Load
+  Forecasting in Buildings}.
+\newblock {\em Energies\/} {6}, 4 (2013), 2110--2129.
+\newblock
+\showISSN{1996-1073}
+\showDOI{%
+\url{http://dx.doi.org/10.3390/en6042110}}
+
+
+\bibitem[\protect\citeauthoryear{Capozzoli, Lauro, and Khan}{Capozzoli
+  et~al\mbox{.}}{2015}]%
+        {CAPOZZOLI20154324}
+{Alfonso Capozzoli}, {Fiorella Lauro}, {and} {Imran Khan}. 2015.
+\newblock \showarticletitle{Fault detection analysis using data mining
+  techniques for a cluster of smart office buildings}.
+\newblock {\em Expert Systems with Applications\/} {42}, 9 (2015), 4324 --
+  4338.
+\newblock
+\showISSN{0957-4174}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.eswa.2015.01.010}}
+
+
+\bibitem[\protect\citeauthoryear{Chenglei, Kangji, Guohai, and Lei}{Chenglei
+  et~al\mbox{.}}{2015}]%
+        {7260948}
+{H. Chenglei}, {L. Kangji}, {L. Guohai}, {and} {P. Lei}. 2015.
+\newblock \showarticletitle{Forecasting building energy consumption based on
+  hybrid PSO-ANN prediction model}. In {\em 2015 34th Chinese Control
+  Conference (CCC)}. 8243--8247.
+\newblock
+\showISSN{1934-1768}
+\showDOI{%
+\url{http://dx.doi.org/10.1109/ChiCC.2015.7260948}}
+
+
+\bibitem[\protect\citeauthoryear{Chou and Bui}{Chou and Bui}{2014}]%
+        {CHOU2014437}
+{Jui-Sheng Chou} {and} {Dac-Khuong Bui}. 2014.
+\newblock \showarticletitle{Modeling heating and cooling loads by artificial
+  intelligence for energy-efficient building design}.
+\newblock {\em Energy and Buildings\/}  {82} (2014), 437 -- 446.
+\newblock
+\showISSN{0378-7788}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.enbuild.2014.07.036}}
+
+
+\bibitem[\protect\citeauthoryear{Dagnely, Ruette, Tourw{\'e}, Tsiporkova, and
+  Verhelst}{Dagnely et~al\mbox{.}}{2015}]%
+        {Dagnely:2015:PHE:2964895.2964903}
+{Pierre Dagnely}, {Tom Ruette}, {Tom Tourw{\'e}}, {Elena Tsiporkova}, {and}
+  {Clara Verhelst}. 2015.
+\newblock \showarticletitle{Predicting Hourly Energy Consumption. Can
+  Regression Modeling Improve on an Autoregressive Baseline?}. In {\em Revised
+  Selected Papers of the Third ECML PKDD Workshop on Data Analytics for
+  Renewable Energy Integration - Volume 9518}. Springer-Verlag, Berlin,
+  Heidelberg, 105--122.
+\newblock
+\showISBNx{978-3-319-27429-4}
+\showDOI{%
+\url{http://dx.doi.org/10.1007/978-3-319-27430-0_8}}
+
+
+\bibitem[\protect\citeauthoryear{Edwards, New, and Parker}{Edwards
+  et~al\mbox{.}}{2012}]%
+        {EDWARDS2012591}
+{Richard~E. Edwards}, {Joshua New}, {and} {Lynne~E. Parker}. 2012.
+\newblock \showarticletitle{Predicting future hourly residential electrical
+  consumption: A machine learning case study}.
+\newblock {\em Energy and Buildings\/}  {49} (2012), 591 -- 603.
+\newblock
+\showISSN{0378-7788}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.enbuild.2012.03.010}}
+
+
+\bibitem[\protect\citeauthoryear{Ekici and Aksoy}{Ekici and Aksoy}{2009}]%
+        {EKICI2009356}
+{Betul~Bektas Ekici} {and} {U.~Teoman Aksoy}. 2009.
+\newblock \showarticletitle{Prediction of building energy consumption by using
+  artificial neural networks}.
+\newblock {\em Advances in Engineering Software\/} {40}, 5 (2009), 356 -- 362.
+\newblock
+\showISSN{0965-9978}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.advengsoft.2008.05.003}}
+
+
+\bibitem[\protect\citeauthoryear{Fan, Xiao, and Wang}{Fan
+  et~al\mbox{.}}{2014}]%
+        {FAN20141}
+{Cheng Fan}, {Fu Xiao}, {and} {Shengwei Wang}. 2014.
+\newblock \showarticletitle{Development of prediction models for next-day
+  building energy consumption and peak power demand using data mining
+  techniques}.
+\newblock {\em Applied Energy\/}  {127} (2014), 1 -- 10.
+\newblock
+\showISSN{0306-2619}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.apenergy.2014.04.016}}
+
+
+\bibitem[\protect\citeauthoryear{Fan, Xiao, Zhao, and Wang}{Fan
+  et~al\mbox{.}}{2018}]%
+        {FAN20181123}
+{Cheng Fan}, {Fu Xiao}, {Yang Zhao}, {and} {Jiayuan Wang}. 2018.
+\newblock \showarticletitle{Analytical investigation of autoencoder-based
+  methods for unsupervised anomaly detection in building energy data}.
+\newblock {\em Applied Energy\/}  {211} (2018), 1123 -- 1135.
+\newblock
+\showISSN{0306-2619}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.apenergy.2017.12.005}}
+
+
+\bibitem[\protect\citeauthoryear{Fernández, Borges, and Penya}{Fernández
+  et~al\mbox{.}}{2011}]%
+        {6059103}
+{I. Fernández}, {C.~E. Borges}, {and} {Y.~K. Penya}. 2011.
+\newblock \showarticletitle{Efficient building load forecasting}. In {\em
+  ETFA2011}. 1--8.
+\newblock
+\showISSN{1946-0759}
+\showDOI{%
+\url{http://dx.doi.org/10.1109/ETFA.2011.6059103}}
+
+
+\bibitem[\protect\citeauthoryear{Guo, Wu, and Wang}{Guo et~al\mbox{.}}{2011}]%
+        {GUO20111273}
+{J.J. Guo}, {J.Y. Wu}, {and} {R.Z. Wang}. 2011.
+\newblock \showarticletitle{A new approach to energy consumption prediction of
+  domestic heat pump water heater based on grey system theory}.
+\newblock {\em Energy and Buildings\/} {43}, 6 (2011), 1273 -- 1279.
+\newblock
+\showISSN{0378-7788}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.enbuild.2011.01.001}}
+
+
+\bibitem[\protect\citeauthoryear{H{\"o}chst, Baumgärtner, Hollick, and
+  Freisleben}{H{\"o}chst et~al\mbox{.}}{2017}]%
+        {8109399}
+{J. H{\"o}chst}, {L. Baumgärtner}, {M. Hollick}, {and} {B. Freisleben}. 2017.
+\newblock \showarticletitle{Unsupervised Traffic Flow Classification Using a
+  Neural Autoencoder}. In {\em 2017 IEEE 42nd Conference on Local Computer
+  Networks (LCN)}. 523--526.
+\newblock
+\showISSN{0742-1303}
+\showDOI{%
+\url{http://dx.doi.org/10.1109/LCN.2017.57}}
+
+
+\bibitem[\protect\citeauthoryear{Hou, Lian, Yao, and Yuan}{Hou
+  et~al\mbox{.}}{2006}]%
+        {HOU20061033}
+{Zhijian Hou}, {Zhiwei Lian}, {Ye Yao}, {and} {Xinjian Yuan}. 2006.
+\newblock \showarticletitle{Cooling-load prediction by the combination of rough
+  set theory and an artificial neural-network based on data-fusion technique}.
+\newblock {\em Applied Energy\/} {83}, 9 (2006), 1033 -- 1046.
+\newblock
+\showISSN{0306-2619}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.apenergy.2005.08.006}}
+
+
+\bibitem[\protect\citeauthoryear{Jain, Damoulas, and Kontokosta}{Jain
+  et~al\mbox{.}}{}]%
+        {doi:10.1061/9780784413616.208}
+{R.~K. Jain}, {T. Damoulas}, {and} {C.~E. Kontokosta}.
+\newblock {\em Towards Data-Driven Energy Consumption Forecasting of
+  Multi-Family Residential Buildings: Feature Selection via The Lasso}.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1061/9780784413616.208}}
+
+
+\bibitem[\protect\citeauthoryear{Kusiak, Li, and Zhang}{Kusiak
+  et~al\mbox{.}}{2010}]%
+        {KUSIAK2010925}
+{Andrew Kusiak}, {Mingyang Li}, {and} {Zijun Zhang}. 2010.
+\newblock \showarticletitle{A data-driven approach for steam load prediction in
+  buildings}.
+\newblock {\em Applied Energy\/} {87}, 3 (2010), 925 -- 933.
+\newblock
+\showISSN{0306-2619}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.apenergy.2009.09.004}}
+
+
+\bibitem[\protect\citeauthoryear{Lei and Hu}{Lei and Hu}{2009}]%
+        {5301031}
+{F. Lei} {and} {P. Hu}. 2009.
+\newblock \showarticletitle{A Baseline Model for Office Building Energy
+  Consumption in Hot Summer and Cold Winter Region}. In {\em 2009 International
+  Conference on Management and Service Science}. 1--4.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1109/ICMSS.2009.5301031}}
+
+
+\bibitem[\protect\citeauthoryear{Li, Meng, Cai, Yoshino, and Mochida}{Li
+  et~al\mbox{.}}{2009a}]%
+        {LI20092249}
+{Qiong Li}, {Qinglin Meng}, {Jiejin Cai}, {Hiroshi Yoshino}, {and} {Akashi
+  Mochida}. 2009a.
+\newblock \showarticletitle{Applying support vector machine to predict hourly
+  cooling load in the building}.
+\newblock {\em Applied Energy\/} {86}, 10 (2009), 2249 -- 2256.
+\newblock
+\showISSN{0306-2619}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.apenergy.2008.11.035}}
+
+
+\bibitem[\protect\citeauthoryear{Li, Meng, Cai, Yoshino, and Mochida}{Li
+  et~al\mbox{.}}{2009b}]%
+        {LI200990}
+{Qiong Li}, {Qinglin Meng}, {Jiejin Cai}, {Hiroshi Yoshino}, {and} {Akashi
+  Mochida}. 2009b.
+\newblock \showarticletitle{Predicting hourly cooling load in the building: A
+  comparison of support vector machine and different artificial neural
+  networks}.
+\newblock {\em Energy Conversion and Management\/} {50}, 1 (2009), 90 -- 96.
+\newblock
+\showISSN{0196-8904}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.enconman.2008.08.033}}
+
+
+\bibitem[\protect\citeauthoryear{Li, Ren, and Meng}{Li et~al\mbox{.}}{2010}]%
+        {5557576}
+{Qiong Li}, {Peng Ren}, {and} {Qinglin Meng}. 2010.
+\newblock \showarticletitle{Prediction model of annual energy consumption of
+  residential buildings}. In {\em 2010 International Conference on Advances in
+  Energy Engineering}. 223--226.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1109/ICAEE.2010.5557576}}
+
+
+\bibitem[\protect\citeauthoryear{Liu and Chen}{Liu and Chen}{2013}]%
+        {6606376}
+{D. Liu} {and} {Q. Chen}. 2013.
+\newblock \showarticletitle{Prediction of building lighting energy consumption
+  based on support vector regression}. In {\em 2013 9th Asian Control
+  Conference (ASCC)}. 1--5.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1109/ASCC.2013.6606376}}
+
+
+\bibitem[\protect\citeauthoryear{Massana, Pous, Burgas, Melendez, and
+  Colomer}{Massana et~al\mbox{.}}{2015}]%
+        {MASSANA2015322}
+{Joaquim Massana}, {Carles Pous}, {Llorenç Burgas}, {Joaquim Melendez}, {and}
+  {Joan Colomer}. 2015.
+\newblock \showarticletitle{Short-term load forecasting in a non-residential
+  building contrasting models and attributes}.
+\newblock {\em Energy and Buildings\/}  {92} (2015), 322 -- 330.
+\newblock
+\showISSN{0378-7788}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.enbuild.2015.02.007}}
+
+
+\bibitem[\protect\citeauthoryear{Mcgill, Tukey, and Larsen}{Mcgill
+  et~al\mbox{.}}{1978}]%
+        {doi:10.1080/00031305.1978.10479236}
+{Robert Mcgill}, {John~W. Tukey}, {and} {Wayne~A. Larsen}. 1978.
+\newblock \showarticletitle{Variations of Box Plots}.
+\newblock {\em The American Statistician\/} {32}, 1 (1978), 12--16.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1080/00031305.1978.10479236}}
+
+
+\bibitem[\protect\citeauthoryear{Pan, Huang, and Wu}{Pan et~al\mbox{.}}{2007}]%
+        {PAN2007651}
+{Yiqun Pan}, {Zhizhong Huang}, {and} {Gang Wu}. 2007.
+\newblock \showarticletitle{Calibrated building energy simulation and its
+  application in a high-rise commercial building in Shanghai}.
+\newblock {\em Energy and Buildings\/} {39}, 6 (2007), 651 -- 657.
+\newblock
+\showISSN{0378-7788}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.enbuild.2006.09.013}}
+
+
+\bibitem[\protect\citeauthoryear{Penya, Borges, Agote, and Fernández}{Penya
+  et~al\mbox{.}}{2011}]%
+        {5984356}
+{Y.~K. Penya}, {C.~E. Borges}, {D. Agote}, {and} {I. Fernández}. 2011.
+\newblock \showarticletitle{Short-term load forecasting in air-conditioned
+  non-residential Buildings}. In {\em 2011 IEEE International Symposium on
+  Industrial Electronics}. 1359--1364.
+\newblock
+\showISSN{2163-5145}
+\showDOI{%
+\url{http://dx.doi.org/10.1109/ISIE.2011.5984356}}
+
+
+\bibitem[\protect\citeauthoryear{Platon, Dehkordi, and Martel}{Platon
+  et~al\mbox{.}}{2015}]%
+        {PLATON201510}
+{Radu Platon}, {Vahid~Raissi Dehkordi}, {and} {Jacques Martel}. 2015.
+\newblock \showarticletitle{Hourly prediction of a building's electricity
+  consumption using case-based reasoning, artificial neural networks and
+  principal component analysis}.
+\newblock {\em Energy and Buildings\/}  {92} (2015), 10 -- 18.
+\newblock
+\showISSN{0378-7788}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.enbuild.2015.01.047}}
+
+
+\bibitem[\protect\citeauthoryear{Qi, Shen, Wang, Shi, Jiang, and Zhu}{Qi
+  et~al\mbox{.}}{2017}]%
+        {7983338}
+{Y. Qi}, {C. Shen}, {D. Wang}, {J. Shi}, {X. Jiang}, {and} {Z. Zhu}. 2017.
+\newblock \showarticletitle{Stacked Sparse Autoencoder-Based Deep Network for
+  Fault Diagnosis of Rotating Machinery}.
+\newblock {\em IEEE Access\/}  {5} (2017), 15066--15079.
+\newblock
+\showISSN{2169-3536}
+\showDOI{%
+\url{http://dx.doi.org/10.1109/ACCESS.2017.2728010}}
+
+
+\bibitem[\protect\citeauthoryear{Royapoor and Roskilly}{Royapoor and
+  Roskilly}{2015}]%
+        {ROYAPOOR2015109}
+{Mohammad Royapoor} {and} {Tony Roskilly}. 2015.
+\newblock \showarticletitle{Building model calibration using energy and
+  environmental data}.
+\newblock {\em Energy and Buildings\/}  {94} (2015), 109 -- 120.
+\newblock
+\showISSN{0378-7788}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.enbuild.2015.02.050}}
+
+
+\bibitem[\protect\citeauthoryear{Tso and Yau}{Tso and Yau}{2007}]%
+        {TSO20071761}
+{Geoffrey~K.F. Tso} {and} {Kelvin~K.W. Yau}. 2007.
+\newblock \showarticletitle{Predicting electricity energy consumption: A
+  comparison of regression analysis, decision tree and neural networks}.
+\newblock {\em Energy\/} {32}, 9 (2007), 1761 -- 1768.
+\newblock
+\showISSN{0360-5442}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.energy.2006.11.010}}
+
+
+\bibitem[\protect\citeauthoryear{Wang, Mathew, and Pang}{Wang
+  et~al\mbox{.}}{2012}]%
+        {WANG2012152}
+{Liping Wang}, {Paul Mathew}, {and} {Xiufeng Pang}. 2012.
+\newblock \showarticletitle{Uncertainties in energy consumption introduced by
+  building operations and weather for a medium-size office building}.
+\newblock {\em Energy and Buildings\/}  {53} (2012), 152 -- 158.
+\newblock
+\showISSN{0378-7788}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.enbuild.2012.06.017}}
+
+
+\bibitem[\protect\citeauthoryear{xiang Zhao and Magoulès}{xiang Zhao and
+  Magoulès}{2012}]%
+        {ZHAO20123586}
+{Hai xiang Zhao} {and} {Frédéric Magoulès}. 2012.
+\newblock \showarticletitle{A review on the prediction of building energy
+  consumption}.
+\newblock {\em Renewable and Sustainable Energy Reviews\/} {16}, 6 (2012), 3586
+  -- 3592.
+\newblock
+\showISSN{1364-0321}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.rser.2012.02.049}}
+
+
+\bibitem[\protect\citeauthoryear{Xuemei, Jin-hu, Lixing, Gang, and
+  Jibin}{Xuemei et~al\mbox{.}}{2009}]%
+        {5196994}
+{L. Xuemei}, {L. Jin-hu}, {D. Lixing}, {X. Gang}, {and} {L. Jibin}. 2009.
+\newblock \showarticletitle{Building Cooling Load Forecasting Model Based on
+  LS-SVM}. In {\em 2009 Asia-Pacific Conference on Information Processing},
+  Vol.~1. 55--58.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1109/APCIP.2009.22}}
+
+
+\end{thebibliography}
