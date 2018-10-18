@@ -35,6 +35,8 @@
 \usepackage{subfigure}
 \DeclareMathOperator*{\argmax}{arg\,max}
 \DeclareMathOperator*{\argmin}{arg\,min}
+\usepackage{graphicx}
+%\usepackage{subcaption}
 
 % Metadata Information
 %\acmVolume{9}
@@ -68,7 +70,8 @@ Christian Klaus
 %       currently affiliated with NASA.
 
 \begin{abstract}
-This paper is concerned about the use of unsupervised learning (semi-supervised) algorithms in power consumption data, as well as the comparison of the performance between statistical method and Undercomplete Autoencoder in classification. As power consumption varies over time, therefore the labeled data created by that, becomes obsolete over times. Therefore, supervised learning is not a viable method in the prediction of energy consumption over a long period of time.
+This paper is concerned about the analysis of power consumption data and the comparison of the performance between statistical method and undercomplete autoencoder in the determination of outliers in that given dataset. Firstly, the raw data was analyzed and a feature vector was constructed. Secondly, Tukey's test was implemented on this feature vector to determine the outliers. Finally, an undercomplete autoencoder was also used to detect outliers and the efficiency of both methods (statistical method and undercomplete autoencoder) were compared.
+ %As power consumption varies over time, therefore the labeled data created by that becomes obsolete overtimes. Therefore, supervised learning is not a viable method in the prediction of energy consumption over a long period of time.
 \end{abstract}
 
 %\category{C.2.2}{Computer-Communication Networks}{Network Protocols}
@@ -307,35 +310,39 @@ In our project, an undercomplete autoencoder was trained in a semi-supervised fa
 \label{sec:level1}
 
 Outlier detection algorithm was developed and it performed adequately well in removing the outliers. Figure \ref{fig:OLX} shows the energy consumption data of each hour for all working days in January 2016, where as, figure \ref{fig:OLX1} shows the
-same data as in figure \ref{fig:OLX} after the outlier removal algorithm implemented
-on it.
-\begin{figure*}[h]
-	\centering
-	\includegraphics[width=13cm,height=5.5cm]{xxx.jpg}
-	\caption{Energy Consumption by Store 105 during working days of January
-		2016 with outliers}
-	\label{fig:OLX}
-\end{figure*}
-\begin{figure*}[h]
-	\centering
-	\includegraphics[width=13cm,height=5.5cm]{yyy.jpg}
-	\caption{Energy Consumption by Store 105 during working days of January
-		2016 without outliers}
-	\label{fig:OLX1}
-\end{figure*}
+same data as in figure \ref{fig:OLX} after the outlier removal algorithm implemented on it.
+\begin{figure}[h]
+	%\centering
+	\begin{flushleft}
+			\includegraphics[width=\linewidth]{xxx.jpg}
+		\caption{Energy Consumption by Store 105 during working days of January 2016 with outliers}
+		\label{fig:OLX}
+	\end{flushleft}
 
-\begin{figure}[t]
-	\centering
+\end{figure}
+\begin{figure}[h]
+	%\centering
+	\begin{flushleft}
+	
+	\includegraphics[width=\linewidth]{yyy.jpg}
+	\caption{Energy Consumption by Store 105 during working days of January 2016 without outliers}
+	\label{fig:OLX1}
+\end{flushleft}
+\end{figure}
+
+In Fig \ref{fig:conf}, we are comparing the accuracy of prediction of both algorithms with manually classified energy data of two stores using confusion matrices.
+
+\begin{figure}[H]
+	%\centering
 	\subfigure[ROC curve of Anomaly Detection Algorithm.]
 	{
-		\includegraphics[width=2in]{conf_anomaly.jpg}
+		\includegraphics[width=2.5in]{conf_anomaly.jpg}
 		%\caption{ROC curve of Anomaly Detection Algorithm.}
 		\label{fig:boat1}
 	}
-	\\
 	\subfigure[Confusion Matrix of Autoencoder.]
 	{
-		\includegraphics[width=2in]{Conf_autoencoder.jpg}
+		\includegraphics[width=2.5in]{Conf_autoencoder.jpg}
 		\label{fig:boat2}
 	}
 	\caption{Confusion Matrices}
@@ -379,18 +386,18 @@ on it.
 %	\label{fig:ROC}
 
 %\end{figure}
+The same dataset which was used to make confusion matrices in Fig \ref{fig:conf} is used to plot Receiver Operating Characteristics curves in Fig \ref{fig:ROC}.
 \begin{figure}[H]
-	\centering
+	%\centering
 	\subfigure[ROC curve of Anomaly Detection Algorithm.]
 	{
-		\includegraphics[width=3.0in]{roc_anomaly.jpg}
+		\includegraphics[width=2.5in]{roc_anomaly.jpg}
 		
 		\label{fig:gull}
 	}
-	\\
 	\subfigure[ROC curve of Autoencoder.]
 	{
-		\includegraphics[width=3.0in]{roc_autoencoder.jpg}
+		\includegraphics[width=2.5in]{roc_autoencoder.jpg}
 		\label{fig:tiger}
 	}
 	\caption{ROC curves}
@@ -401,7 +408,7 @@ on it.
 
 
 
-In Fig \ref{fig:conf}, we are comparing the accuracy of prediction of both algorithms with manually classified energy data of two stores using confusion matrices. 
+ 
 
 
 The same dataset which was used to make confusion matrices in Fig \ref{fig:conf} is used to plot Receiver Operating Characteristics curves in Fig \ref{fig:ROC}.
