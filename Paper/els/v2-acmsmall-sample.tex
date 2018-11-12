@@ -52,7 +52,7 @@
 %\markboth{G. Zhou et al.}{A Multifrequency MAC Specially Designed for WSN Applications}
 
 % Title portion
-\title{Comparison of Anomaly Detection between Statistical Method and Undercomplete Autoencoder}
+\title{Comparison of Outlier Detection between Statistical Method and Undercomplete Autoencoder}
 \author{Muhammad Ayaz Hussain
 \affil{University of}
 Saif ur Rahman
@@ -140,22 +140,36 @@ Presently, it is very difficult to predict the energy consumption anomalies prec
 % Head 1
 
 \section{Related Works}
+There is a sizable literature regarding semi-supervised learning methods on big data, with some relating to power consumption such as, 
+\cite{Bhattacharjee:2018:TFS:3196494.3196551} which also performed semi-supervised analysis to determine and counter data falsifications in power consumption which can be considered as anomalous power consumption. Since data falsification can range from individual customers tampering with the meter for electricity theft to certain groups orchestrating an attack against a rival company in a systematic manner compromising several meters, as their goals can be more complex than just electricity theft. For that, they proposed, a novel metric based on harmonic to the arithmetic mean ratios of daily power consumption. The ratios between harmonic and arithmetic mean remain highly stable over time as compared to just arithmetic mean. During various attacks, there is asymmetric growth(or decay) rates harmonic mean as compared to symmetric growth(or decay) rates of the arithmetic mean, which can help to infer the presence and type of falsification precisely. Their data consisted of real power consumption of 700 houses from Texas and 5000 houses from Ireland that belong to residential customers. One of the most important aspect of this work is that, it enables the quick identification of around or less than 10 days of monitoring, which is quite efficient as compared to pattern-based energy theft detector (CPBETD) which takes around 1 year, autoregressive moving average (ARMA) which took 1 month, or Entropy based method which also took 1 month.
+ 
+Our statistical approach also deals with the analysis of power consumption data to find any short term anomalous readings, which performs quite well as more than 95\% anomalies were detected successfully using Tukey test (which uses arithmetic means and 1st and 3rd quartiles which is discussed in \ref{sec:level2}) 
 
-Previous studies in data-driven building energy consumption prediction have utilized several methods such as engineering methods \cite{ZHAO20123586}, statistical method \cite{5301031}, Artificial Neural Networks (ANN) \cite{EKICI2009356,KUSIAK2010925}, Support Vector Machines (SVM) \cite{LI20092249}, fuzzy logic and grey model techniques \cite{GUO20111273}, decision trees \cite{TSO20071761} etc. 
-
-Also there have been some studies which compared the effectiveness of different algorithms in energy consumption prediction by comparing the results of two or more algorithms on a similar dataset. For example, Li et al. \cite{LI20092249} compared SVM and Back Propagation Neural Network (BPNN) to predict hourly cooling load in
-a building ; %Borges et al. \cite{bb11} compared SVM and Autoregressive (AR) Model;%
-\cite{5196994}  compared LS-SVM and BPNN for building cooling load forecasting; \cite{6606376}  compared Support Vector Regression (SVR) and ANN for lighting consumption for a building; \cite{5984356,6059103} compared AR Model, ANN, autoregressive integrated moving average (ARIMA), and Bayesian Network on a university campus for short term load forecasting by incorporating energy information as well as metrological data; \cite{PLATON201510}  compared ANN and Case based Reasoning (CBR) for the prediction of hourly electricity consumption of an institutional building; \cite{doi:10.1061/9780784413616.208} compared SVM and MLR on a residential building;  \cite{HOU20061033} compared ARIMA and ANN (need to download paper);  \cite{FAN20141}  compared MLR, ARIMA, SVM, RF, MLP, BT, MARS, and kNN on a high rise commercial building ; \cite{CHOU2014437} emphasized on building geometry in their dataset while comparing ANN, SVM, CART, CHAID, and GLR ; \cite{EDWARDS2012591}  compared MLR, FFNN, SVM, LS-SVM, HME-FFNN, and FCM-FFNN; \cite{LI200990,5557576} compared SVM, BPNN, Radial Basis Function Neural Network (RBFNN), and General Regression Neural Network (GRNN) on multiple residential buildings; Dagnely et al. \cite{Dagnely:2015:PHE:2964895.2964903} compared Ordinary Least Squared (OLS) Regression and SVR for the prediction of hourly energy consumption by taking temporal predictors such as occupancy, working hours and days of the week as well as metrological predictors such as ambient temperature and irradiance for a building;  \cite{MASSANA2015322} compared MLR, MLP, and SVR for Short-term load forecasting in a non-residential building. A hybrid neural net ARIMA have been used by Chou et al.\cite{CHOU2014437} to detect anomalies in the power consumption in an office space. In another paper, Capozolli et al. \cite{CAPOZZOLI20154324} used Classification and Regression Tree (CART), K-Mean clustering, Artificial neural networks and basic ensembling method (ANN BEM) and Outlier Detection methods such as Generalized Extreme Studentized Deviation (GESD) and Peak detection method on a building cluster. Whereas, \cite{en6042110} compared SVM and Autoregressive (AR) Model on the energy consumption on a couple of university campuses for a load forecasting. 
-
+As far as the use of autoencoder for classification is concerned, those have been used in previous works for classification tasks such as \cite{FAN20181123} which used autoencoder based unsupervised anomaly detection method on a building energy data on a single facility which was in detail as 113 variables were considered which were generally classified into 4 distinct classes which are,  (1) time variables (i.e.,
+Month, Day, Hour, Minute and Day type); (2) outdoor variables (e.g., outdoor dry-bulb temperature and relative humidity); (3) operating parameters of the chiller plant (e.g., the temperatures and flow-rates of chilled
+water and condenser water); (4) energy variables (e.g., the total building
+cooling load and electricity consumption of the chiller plant).
 
 
+Semi-supervised learning using Softmax classifier with  sparse autoencoder for classification of water quality was used by \cite{article123}. Their dataset consisted of 60 unbalanced classification records, 100 training samples are generated for each water quality assesment grade. Their feature vector consisted of 14 representative features of water quality which were chemical oxygen demand (COD), dissolved oxygen
+(DO), total phosphorus (TP), 5-day biochemical oxygen demand (BOD5), NH3-N, NO3-
+N, oil, chlorophyll, PH, electrical conductivity (EC), turbidity, CL, total coliform (TColi)
+and temperature (T). They used 500 labeled training samples and 7,932 unlabeled records in all. Their proposed method method showed 98.8\% accuracy which was greater as compared to other supervised algorithms such as Softmax classifiers, BP-NN, RBF-NN and SVM.  
+%Previous studies in data-driven building energy consumption prediction have utilized several methods such as engineering methods \cite{ZHAO20123586}, statistical methods \cite{5301031}, Artificial Neural Networks (ANN) \cite{EKICI2009356,KUSIAK2010925}, Support Vector Machines (SVM) \cite{LI20092249}, fuzzy logic and grey model techniques \cite{GUO20111273}, decision trees \cite{TSO20071761} etc. 
+
+%Also there have been some studies which compared the effectiveness of different algorithms in energy consumption prediction by comparing the results of two or more algorithms on a similar dataset. For example, \cite{LI20092249} compared SVM and Back Propagation Neural Network (BPNN) to predict hourly cooling load in
+%a building ; %Borges et al. \cite{bb11} compared SVM and Autoregressive (AR) Model;%
+%\cite{5196994}  compared LS-SVM and BPNN for building cooling load forecasting; \cite{6606376}  compared Support Vector Regression (SVR) and ANN for lighting consumption for a building; \cite{5984356,6059103} compared AR Model, ANN, autoregressive integrated moving average (ARIMA), and Bayesian Network on a university campus for short term load forecasting by incorporating energy information as well as metrological data; \cite{PLATON201510}  compared ANN and Case based Reasoning (CBR) for the prediction of hourly electricity consumption of an institutional building; \cite{doi:10.1061/9780784413616.208} compared SVM and MLR to forecast energy consumption on a multi-family residential building;  \cite{HOU20061033} compared ARIMA and ANN (need to download paper);  \cite{FAN20141}  compared MLR, ARIMA, SVM, RF, MLP, BT, MARS, and kNN on a high rise commercial building ; \cite{CHOU2014437} emphasized on building geometry in their dataset while comparing ANN, SVM, CART, CHAID, and GLR ; \cite{EDWARDS2012591}  compared MLR, FFNN, SVM, LS-SVM, HME-FFNN, and FCM-FFNN in predicting residential electricity consumption; \cite{LI200990,5557576} compared SVM, BPNN, Radial Basis Function Neural Network (RBFNN), and General Regression Neural Network (GRNN) on multiple residential buildings; Dagnely et al. \cite{Dagnely:2015:PHE:2964895.2964903} compared Ordinary Least Squared (OLS) Regression and SVR for the prediction of hourly energy consumption by taking temporal predictors such as occupancy, working hours and days of the week as well as metrological predictors such as ambient temperature and irradiance for a building;  \cite{MASSANA2015322} compared MLR, MLP, and SVR for Short-term load forecasting in a non-residential building. A hybrid neural net ARIMA have been used by Chou et al.\cite{CHOU2014437} to detect anomalies in the power consumption in an office space. In another paper, Capozolli et al. \cite{CAPOZZOLI20154324} used Classification and Regression Tree (CART), K-Mean clustering, Artificial neural networks and basic ensembling method (ANN BEM) and Outlier Detection methods such as Generalized Extreme Studentized Deviation (GESD) and Peak detection method on a building cluster. Whereas, \cite{en6042110} compared SVM and Autoregressive (AR) Model on the energy consumption on a couple of university campuses for a load forecasting. 
 
 
 
-As far as the use of autoencoder for classification is concerned, those have been used in previous works for classification tasks such as \cite{FAN20181123} which used autoencoder based unsupervised anomaly detection method on a building energy data on a single facility which was in detail as several variables were considered.
 
-Autoencoder is also been used for unsupervised classification of the traffic flow of data packet in Internet \cite{8109399}.
-Whereas, \cite{7983338} used stacked autoencoders to diagnose and classify the faults in a rotating machinery.
+
+
+%As far as the use of autoencoder for classification is concerned, those have been used in previous works for classification tasks such as \cite{FAN20181123} which used autoencoder based unsupervised anomaly detection method on a building energy data on a single facility which was in detail as several variables were considered.
+
+%Autoencoder is also been used for unsupervised classification of the traffic flow of data packet in Internet \cite{8109399}.
+%Whereas, \cite{7983338} used stacked autoencoders to diagnose and classify the faults in a rotating machinery.
 
 \section{Methodology}
 
@@ -256,7 +270,7 @@ $\mathit{\alpha}$ is the factor which varies the inner fence limits.
 	\label{fig:boat0}
 \end{figure}
 
-Any value lying beyond inner fence limits (upper and lower) can be considered as an 	outlier, and therefore, it is removed. A sample result of designed outlier detection 	algorithm is shown in Figure \ref{fig:boat1} and \ref{fig:gull}.
+Any value lying beyond inner fence limits (upper and lower) can be considered as an 	outlier, and therefore, it is removed. The results of designed outlier detection 	algorithm are shown in Figure \ref{fig:OLX1}, \ref{fig:boat1} and \ref{fig:gull}.
 
 As the dataset used in this project was highly varied and there were several energy values that stayed the same for the whole period of time. In order to calculate the quartiles and medians, there must be at least 4 unique values in a dataset, therefore for those dataset having less unique values, some product of their respective average was used to determine Inner and Outer Fences. 
 
@@ -303,7 +317,7 @@ If the feature space $\mathcal{F}$  has lower dimensionality than the input spac
 
 In case of Undercomplete autoencoders, $\mathcal{F}$ has lower dimensionality than the input space $\mathcal{X}$, then the feature vector $\phi(x)$  can be regarded as a compressed representation of the input $x$.
 
-In our project, an undercomplete autoencoder was trained in a semi-supervised fashion on the values of normal energy consumption data. Afterwards, the trained model was used and evaluated on a pre-trained dataset. 
+In this paper, an undercomplete autoencoder was trained in a semi-supervised fashion on the values of normal energy consumption data. Afterwards, the trained model was used and evaluated on a pre-trained dataset. 
 
 
 \section{Experiments and Results}
@@ -334,7 +348,7 @@ In Fig \ref{fig:conf}, we are comparing the accuracy of prediction of both algor
 
 \begin{figure}[H]
 	%\centering
-	\subfigure[ROC curve of Anomaly Detection Algorithm.]
+	\subfigure[Confusion Matrix of Outlier Detection Algorithm]
 	{
 		\includegraphics[width=2.5in]{conf_anomaly.jpg}
 		%\caption{ROC curve of Anomaly Detection Algorithm.}
@@ -389,7 +403,7 @@ In Fig \ref{fig:conf}, we are comparing the accuracy of prediction of both algor
 The same dataset which was used to make confusion matrices in Fig \ref{fig:conf} is used to plot Receiver Operating Characteristics curves in Fig \ref{fig:ROC}.
 \begin{figure}[H]
 	%\centering
-	\subfigure[ROC curve of Anomaly Detection Algorithm.]
+	\subfigure[ROC curve of Outlier Detection Algorithm.]
 	{
 		\includegraphics[width=2.5in]{roc_anomaly.jpg}
 		
@@ -416,7 +430,7 @@ The same dataset which was used to make confusion matrices in Fig \ref{fig:conf}
 
 
 
-As we can see from the comparison of Fig \ref{fig:conf} and Fig \ref{fig:ROC}, we can interpret that the performance of Statistical method which is based on Tukey's test performed remarkably better with around 95\% correlation with manual classification but the shortcoming of this method is that the dataset should be arranged in a proper manner as a single missing values in the dataset can make the classification ineffective. Whereas, classification using Autoencoder performed adequately with around 70-75\% correlation with manually classified data but it required pre-classified data containing no anomalies.  
+As we can see from the comparison of Fig \ref{fig:conf} and Fig \ref{fig:ROC}, we can interpret that the performance of Statistical method which is based on Tukey's test performed remarkably better with around 95\% correlation with manual classification but the shortcoming of this method is that the dataset should be arranged in a proper manner as a single missing values in the dataset can make the classification ineffective. Whereas, classification using Autoencoder performed adequately with around 70-75\% correlation with manually classified data but it required pre-classified data containing no outliers.  
 
 \section{Discussion/Outlook/Conclusion/Future Work}
 

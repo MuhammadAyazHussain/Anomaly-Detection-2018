@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.24)  18 OCT 2018 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.24)  12 NOV 2018 17:21
 entering extended mode
 **./v2-acmsmall-sample.tex
 (v2-acmsmall-sample.tex
@@ -458,10 +458,6 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 110.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 113.
-Missing character: There is no Ã in font pncr7t!
-Missing character: There is no ¨ in font pncr7t!
-Missing character: There is no Ã in font pncr7t!
-Missing character: There is no ¡ in font pncr7t!
 
 Overfull \vbox (72.27pt too high) has occurred while \output is active []
 
@@ -473,40 +469,43 @@ Non-PDF special ignored!
 <All_stores.jpg, id=8, 1253.68375pt x 526.96875pt>
 File: All_stores.jpg Graphic file (type jpg)
 <use All_stores.jpg>
-Package pdftex.def Info: All_stores.jpg  used on input line 175.
+Package pdftex.def Info: All_stores.jpg  used on input line 189.
 (pdftex.def)             Requested size: 369.89088pt x 156.4917pt.
 <jan_all_stores.jpg, id=9, 1487.5575pt x 526.96875pt>
 File: jan_all_stores.jpg Graphic file (type jpg)
 <use jan_all_stores.jpg>
-Package pdftex.def Info: jan_all_stores.jpg  used on input line 186.
+Package pdftex.def Info: jan_all_stores.jpg  used on input line 200.
 (pdftex.def)             Requested size: 369.89102pt x 156.4917pt.
+
+Underfull \vbox (badness 2368) has occurred while \output is active []
+
  [2 <./All_stores.jpg>]
 <store_105_all.jpg, id=13, 1253.68375pt x 526.96875pt>
 File: store_105_all.jpg Graphic file (type jpg)
 <use store_105_all.jpg>
-Package pdftex.def Info: store_105_all.jpg  used on input line 197.
+Package pdftex.def Info: store_105_all.jpg  used on input line 211.
 (pdftex.def)             Requested size: 369.89088pt x 156.4917pt.
 <store_105_jan.jpg, id=14, 1487.5575pt x 526.96875pt>
 File: store_105_jan.jpg Graphic file (type jpg)
 <use store_105_jan.jpg>
-Package pdftex.def Info: store_105_jan.jpg  used on input line 210.
+Package pdftex.def Info: store_105_jan.jpg  used on input line 224.
 (pdftex.def)             Requested size: 369.89102pt x 156.4917pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3 <./jan_all_stores.jpg> <./store_105_all.jpg>]
-LaTeX Font Info:    Try loading font information for U+lasy on input line 227.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 241.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 227.
+LaTeX Font Info:    Try loading font information for U+msa on input line 241.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 227.
+LaTeX Font Info:    Try loading font information for U+msb on input line 241.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -514,332 +513,188 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <IQR.jpg, id=25, 346.29375pt x 130.23656pt>
 File: IQR.jpg Graphic file (type jpg)
 <use IQR.jpg>
-Package pdftex.def Info: IQR.jpg  used on input line 253.
+Package pdftex.def Info: IQR.jpg  used on input line 267.
 (pdftex.def)             Requested size: 170.72108pt x 71.13152pt.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 282
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 296
 .
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 283.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 297.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 283.
-LaTeX Font Info:    Calculating math sizes for size <> on input line 283.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 297.
+LaTeX Font Info:    Calculating math sizes for size <> on input line 297.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 283.
+(Font)              size <5> substituted on input line 297.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 288
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 302
 .
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <> not available
-(Font)              size <5> substituted on input line 289.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 289.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 289.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <> not available
-(Font)              size <5> substituted on input line 289.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 289.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 289.
+(Font)              size <5> substituted on input line 303.
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 289.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 303.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 289.
+(Font)              size <5> substituted on input line 303.
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 289.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 303.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 289.
+(Font)              size <5> substituted on input line 303.
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 289.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 303.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 289.
+(Font)              size <5> substituted on input line 303.
 
 [5 <./IQR.jpg>]
 <xxx.jpg, id=38, 866.0355pt x 307.1475pt>
 File: xxx.jpg Graphic file (type jpg)
 <use xxx.jpg>
-Package pdftex.def Info: xxx.jpg  used on input line 317.
+Package pdftex.def Info: xxx.jpg  used on input line 331.
 (pdftex.def)             Requested size: 396.0pt x 140.44127pt.
 <yyy.jpg, id=39, 867.84225pt x 307.74976pt>
 File: yyy.jpg Graphic file (type jpg)
 <use yyy.jpg>
-Package pdftex.def Info: yyy.jpg  used on input line 327.
+Package pdftex.def Info: yyy.jpg  used on input line 341.
 (pdftex.def)             Requested size: 396.0pt x 140.43019pt.
 <conf_anomaly.jpg, id=40, 243.309pt x 245.718pt>
 File: conf_anomaly.jpg Graphic file (type jpg)
 <use conf_anomaly.jpg>
-Package pdftex.def Info: conf_anomaly.jpg  used on input line 342.
+Package pdftex.def Info: conf_anomaly.jpg  used on input line 356.
 (pdftex.def)             Requested size: 180.67499pt x 182.4696pt.
 <Conf_autoencoder.jpg, id=41, 232.4685pt x 238.491pt>
 File: Conf_autoencoder.jpg Graphic file (type jpg)
 <use Conf_autoencoder.jpg>
-Package pdftex.def Info: Conf_autoencoder.jpg  used on input line 347.
+Package pdftex.def Info: Conf_autoencoder.jpg  used on input line 361.
 (pdftex.def)             Requested size: 180.67499pt x 185.36719pt.
  [6 <./xxx.jpg> <./yyy.jpg>]
 <roc_anomaly.jpg, id=45, 278.84175pt x 177.66376pt>
 File: roc_anomaly.jpg Graphic file (type jpg)
 <use roc_anomaly.jpg>
-Package pdftex.def Info: roc_anomaly.jpg  used on input line 397.
+Package pdftex.def Info: roc_anomaly.jpg  used on input line 411.
 (pdftex.def)             Requested size: 180.67499pt x 115.12222pt.
 <roc_autoencoder.jpg, id=46, 277.63725pt x 177.66376pt>
 File: roc_autoencoder.jpg Graphic file (type jpg)
 <use roc_autoencoder.jpg>
-Package pdftex.def Info: roc_autoencoder.jpg  used on input line 402.
+Package pdftex.def Info: roc_autoencoder.jpg  used on input line 416.
 (pdftex.def)             Requested size: 180.67499pt x 115.62103pt.
  [7 <./conf_anomaly.jpg> <./Conf_autoencoder.jpg> <./roc_anomaly.jpg> <./roc_au
 toencoder.jpg>]
 (v2-acmsmall-sample.bbl
-Missing character: There is no Ã in font pncr7t!
-Missing character: There is no ¡ in font pncr7t!
-Missing character: There is no Ã in font pncr7t!
-Missing character: There is no ¡ in font pncr7t!
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 46.
 
-Underfull \hbox (badness 1163) in paragraph at lines 38--47
-[]\OT1/pnc/m/n/8 Cruz E. Borges, Yoseba K. Penya, Ivn Fern-ndez, Juan Pri-eto, 
-and Os-car Bre-tos. 2013. As-sess-ing
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 78--86
-[]\OT1/pnc/m/n/8 Jui-Sheng Chou and Dac-Khuong Bui. 2014. Mod-el-ing heat-ing a
-nd cool-ing loads by ar-ti-fi-cial in-
- []
-
-
-Underfull \hbox (badness 2932) in paragraph at lines 78--86
-\OT1/pnc/m/n/8 tel-li-gence for energy-efficient build-ing de-sign. \OT1/pnc/m/
-it/8 En-ergy and Build-ings \OT1/pnc/m/n/8 82 (2014), 437 -- 446.
- []
-
-
-Underfull \hbox (badness 2005) in paragraph at lines 91--102
-[]\OT1/pnc/m/n/8 Pierre Dag-nely, Tom Ruette, Tom Tourw[]e, Elena Tsi-porkova, 
-and Clara Ver-helst. 2015. Pre-dict-
- []
-
-
-Underfull \hbox (badness 3375) in paragraph at lines 91--102
-\OT1/pnc/m/n/8 line?. In \OT1/pnc/m/it/8 Re-vised Se-lected Pa-pers of the Thir
-d ECML PKDD Work-shop on Data An-a-lyt-ics
- []
-
-
-Underfull \hbox (badness 2875) in paragraph at lines 119--127
-\OT1/pnc/m/n/8 ing ar-ti-fi-cial neu-ral net-works. \OT1/pnc/m/it/8 Ad-vances i
-n En-gi-neer-ing Soft-ware \OT1/pnc/m/n/8 40, 5 (2009), 356 -- 362.
- []
-
-Missing character: There is no Ã in font pncr7t!
-Missing character: There is no ¡ in font pncr7t!
-Missing character: There is no Ã in font pncr7t!
-Missing character: There is no ¤ in font pncr7t!
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 209--215
-[]\OT1/pnc/m/n/8 R. K. Jain, T. Damoulas, and C. E. Kon-tokosta. \OT1/pnc/m/it/
-8 To-wards Data-Driven En-ergy Con-sump-
- []
-
-
-Underfull \hbox (badness 7397) in paragraph at lines 209--215
-\OT1/pnc/m/it/8 tion Fore-cast-ing of Multi-Family Res-i-den-tial Build-ings: F
-ea-ture Se-lec-tion via The Lasso\OT1/pnc/m/n/8 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--228
-[]\OT1/pnc/m/n/8 Andrew Ku-siak, Mingyang Li, and Zi-jun Zhang. 2010. A data-dr
-iven ap-proach for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--228
-\OT1/pnc/m/n/8 steam load pre-dic-tion in build-ings. \OT1/pnc/m/it/8 Ap-plied 
-En-ergy \OT1/pnc/m/n/8 87, 3 (2010), 925 -- 933.
- []
-
-
-Underfull \hbox (badness 4205) in paragraph at lines 258--268
-[]\OT1/pnc/m/n/8 Qiong Li, Qinglin Meng, Jiejin Cai, Hi-roshi Yoshino, and Akas
-hi Mochida. 2009b. Pre-dict-ing
- []
-
-
-Underfull \hbox (badness 4168) in paragraph at lines 258--268
-\OT1/pnc/m/n/8 hourly cool-ing load in the build-ing: A com-par-i-son of sup-po
-rt vec-tor ma-chine and dif-fer-
- []
-
-
-Underfull \hbox (badness 2790) in paragraph at lines 258--268
-\OT1/pnc/m/n/8 ent ar-ti-fi-cial neu-ral net-works. \OT1/pnc/m/it/8 En-ergy Con
--ver-sion and Man-age-ment \OT1/pnc/m/n/8 50, 1 (2009), 90 -- 96.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--290
-[]\OT1/pnc/m/n/8 D. Liu and Q. Chen. 2013. Pre-dic-tion of build-ing light-ing 
-en-ergy con-sump-tion based
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--290
-\OT1/pnc/m/n/8 on sup-port vec-tor re-gres-sion. In \OT1/pnc/m/it/8 2013 9th As
-ian Con-trol Con-fer-ence (ASCC)\OT1/pnc/m/n/8 . 1--5.
- []
-
-Missing character: There is no Ã in font pncr7t!
-Missing character: There is no § in font pncr7t!
-Missing character: There is no Ã in font pncr7t!
-Missing character: There is no ¡ in font pncr7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--354
-[]\OT1/pnc/m/n/8 Radu Pla-ton, Vahid Raissi Dehko-rdi, and Jacques Mar-tel. 201
-5. Hourly pre-dic-tion of a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--354
-\OT1/pnc/m/n/8 build-ing's elec-tric-ity con-sump-tion us-ing case-based rea-so
-n-ing, ar-ti-fi-cial neu-ral net-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--354
-\OT1/pnc/m/n/8 works and prin-ci-pal com-po-nent anal-y-sis. \OT1/pnc/m/it/8 En
--ergy and Build-ings \OT1/pnc/m/n/8 92 (2015), 10 -- 18.
- []
-
-
-Underfull \hbox (badness 1082) in paragraph at lines 359--367
-[]\OT1/pnc/m/n/8 Y. Qi, C. Shen, D. Wang, J. Shi, X. Jiang, and Z. Zhu. 2017. S
-tacked Sparse Autoencoder-Based
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 372--380
+Underfull \hbox (badness 10000) in paragraph at lines 101--109
 []\OT1/pnc/m/n/8 Mohammad Roy-apoor and Tony Roskilly. 2015. Build-ing model ca
 l-i-bra-tion us-ing en-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--380
+Underfull \hbox (badness 10000) in paragraph at lines 101--109
 \OT1/pnc/m/n/8 ergy and en-vi-ron-men-tal data. \OT1/pnc/m/it/8 En-ergy and Bui
 ld-ings \OT1/pnc/m/n/8 94 (2015), 109 -- 120.
  []
 
-Missing character: There is no Ã in font pncr7t!
-Missing character: There is no © in font pncr7t!
-Missing character: There is no Ã in font pncr7t!
-Missing character: There is no © in font pncr7t!
-Missing character: There is no Ã in font pncr7t!
-Missing character: There is no ¨ in font pncr7t!
-
-Underfull \hbox (badness 5563) in paragraph at lines 410--419
-[]\OT1/pnc/m/n/8 Hai xi-ang Zhao and Fr-dric Magouls. 2012. A re-view on the pr
-e-dic-tion of build-ing en-ergy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 410--419
-\OT1/pnc/m/n/8 con-sump-tion. \OT1/pnc/m/it/8 Re-new-able and Sus-tain-able En-
-ergy Re-views \OT1/pnc/m/n/8 16, 6 (2012), 3586 -- 3592.
- []
-
-) [9] (v2-acmsmall-sample.aux)
+) [8] (v2-acmsmall-sample.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
@@ -849,13 +704,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5651 strings out of 493305
- 73362 string characters out of 3138874
- 159362 words of memory out of 3000000
- 9073 multiletter control sequences out of 15000+200000
- 32924 words of font info for 91 fonts, out of 3000000 for 9000
+ 5623 strings out of 493305
+ 73014 string characters out of 3138874
+ 153009 words of memory out of 3000000
+ 9045 multiletter control sequences out of 15000+200000
+ 31982 words of font info for 89 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,35p,2335b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,9n,35p,2397b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb><C:/Program Files/MiKTeX 2.9/f
@@ -872,9 +727,9 @@ ype1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic
 /uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on v2-acmsmall-sample.pdf (9 pages, 1094161 bytes).
+Output written on v2-acmsmall-sample.pdf (8 pages, 1085151 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 109 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
