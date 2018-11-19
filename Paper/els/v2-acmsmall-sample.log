@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.24)  12 NOV 2018 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.24)  19 NOV 2018 19:34
 entering extended mode
 **./v2-acmsmall-sample.tex
 (v2-acmsmall-sample.tex
@@ -469,43 +469,40 @@ Non-PDF special ignored!
 <All_stores.jpg, id=8, 1253.68375pt x 526.96875pt>
 File: All_stores.jpg Graphic file (type jpg)
 <use All_stores.jpg>
-Package pdftex.def Info: All_stores.jpg  used on input line 189.
+Package pdftex.def Info: All_stores.jpg  used on input line 193.
 (pdftex.def)             Requested size: 369.89088pt x 156.4917pt.
 <jan_all_stores.jpg, id=9, 1487.5575pt x 526.96875pt>
 File: jan_all_stores.jpg Graphic file (type jpg)
 <use jan_all_stores.jpg>
-Package pdftex.def Info: jan_all_stores.jpg  used on input line 200.
+Package pdftex.def Info: jan_all_stores.jpg  used on input line 204.
 (pdftex.def)             Requested size: 369.89102pt x 156.4917pt.
-
-Underfull \vbox (badness 2368) has occurred while \output is active []
-
  [2 <./All_stores.jpg>]
 <store_105_all.jpg, id=13, 1253.68375pt x 526.96875pt>
 File: store_105_all.jpg Graphic file (type jpg)
 <use store_105_all.jpg>
-Package pdftex.def Info: store_105_all.jpg  used on input line 211.
+Package pdftex.def Info: store_105_all.jpg  used on input line 215.
 (pdftex.def)             Requested size: 369.89088pt x 156.4917pt.
 <store_105_jan.jpg, id=14, 1487.5575pt x 526.96875pt>
 File: store_105_jan.jpg Graphic file (type jpg)
 <use store_105_jan.jpg>
-Package pdftex.def Info: store_105_jan.jpg  used on input line 224.
+Package pdftex.def Info: store_105_jan.jpg  used on input line 228.
 (pdftex.def)             Requested size: 369.89102pt x 156.4917pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3 <./jan_all_stores.jpg> <./store_105_all.jpg>]
-LaTeX Font Info:    Try loading font information for U+lasy on input line 241.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 245.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 241.
+LaTeX Font Info:    Try loading font information for U+msa on input line 245.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 241.
+LaTeX Font Info:    Try loading font information for U+msb on input line 245.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -513,176 +510,186 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <IQR.jpg, id=25, 346.29375pt x 130.23656pt>
 File: IQR.jpg Graphic file (type jpg)
 <use IQR.jpg>
-Package pdftex.def Info: IQR.jpg  used on input line 267.
+Package pdftex.def Info: IQR.jpg  used on input line 271.
 (pdftex.def)             Requested size: 170.72108pt x 71.13152pt.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 296
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 300
 .
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 297.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 301.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 297.
-LaTeX Font Info:    Calculating math sizes for size <> on input line 297.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 301.
+LaTeX Font Info:    Calculating math sizes for size <> on input line 301.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 297.
+(Font)              size <5> substituted on input line 301.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 302
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 306
 .
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <> not available
-(Font)              size <5> substituted on input line 303.
+(Font)              size <5> substituted on input line 307.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 303.
+(Font)              size <5> substituted on input line 307.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 303.
+(Font)              size <5> substituted on input line 307.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <> not available
-(Font)              size <5> substituted on input line 303.
+(Font)              size <5> substituted on input line 307.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 303.
+(Font)              size <5> substituted on input line 307.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 303.
+(Font)              size <5> substituted on input line 307.
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 303.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 307.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 303.
+(Font)              size <5> substituted on input line 307.
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 303.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 307.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 303.
+(Font)              size <5> substituted on input line 307.
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 303.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 307.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 303.
+(Font)              size <5> substituted on input line 307.
 
 [5 <./IQR.jpg>]
-<xxx.jpg, id=38, 866.0355pt x 307.1475pt>
-File: xxx.jpg Graphic file (type jpg)
-<use xxx.jpg>
-Package pdftex.def Info: xxx.jpg  used on input line 331.
-(pdftex.def)             Requested size: 396.0pt x 140.44127pt.
-<yyy.jpg, id=39, 867.84225pt x 307.74976pt>
-File: yyy.jpg Graphic file (type jpg)
-<use yyy.jpg>
-Package pdftex.def Info: yyy.jpg  used on input line 341.
-(pdftex.def)             Requested size: 396.0pt x 140.43019pt.
+<zzz.jpg, id=38, 744.98325pt x 304.7385pt>
+File: zzz.jpg Graphic file (type jpg)
+<use zzz.jpg>
+Package pdftex.def Info: zzz.jpg  used on input line 335.
+(pdftex.def)             Requested size: 396.0pt x 161.98492pt.
+<all_days_st_05_jan_wo_OL.jpg, id=39, 813.0375pt x 316.18124pt>
+File: all_days_st_05_jan_wo_OL.jpg Graphic file (type jpg)
+<use all_days_st_05_jan_wo_OL.jpg>
+Package pdftex.def Info: all_days_st_05_jan_wo_OL.jpg  used on input line 345.
+(pdftex.def)             Requested size: 396.0pt x 153.99902pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <conf_anomaly.jpg, id=40, 243.309pt x 245.718pt>
 File: conf_anomaly.jpg Graphic file (type jpg)
 <use conf_anomaly.jpg>
-Package pdftex.def Info: conf_anomaly.jpg  used on input line 356.
+Package pdftex.def Info: conf_anomaly.jpg  used on input line 360.
 (pdftex.def)             Requested size: 180.67499pt x 182.4696pt.
 <Conf_autoencoder.jpg, id=41, 232.4685pt x 238.491pt>
 File: Conf_autoencoder.jpg Graphic file (type jpg)
 <use Conf_autoencoder.jpg>
-Package pdftex.def Info: Conf_autoencoder.jpg  used on input line 361.
+Package pdftex.def Info: Conf_autoencoder.jpg  used on input line 365.
 (pdftex.def)             Requested size: 180.67499pt x 185.36719pt.
- [6 <./xxx.jpg> <./yyy.jpg>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./zzz.jpg>]
 <roc_anomaly.jpg, id=45, 278.84175pt x 177.66376pt>
 File: roc_anomaly.jpg Graphic file (type jpg)
 <use roc_anomaly.jpg>
-Package pdftex.def Info: roc_anomaly.jpg  used on input line 411.
+Package pdftex.def Info: roc_anomaly.jpg  used on input line 415.
 (pdftex.def)             Requested size: 180.67499pt x 115.12222pt.
 <roc_autoencoder.jpg, id=46, 277.63725pt x 177.66376pt>
 File: roc_autoencoder.jpg Graphic file (type jpg)
 <use roc_autoencoder.jpg>
-Package pdftex.def Info: roc_autoencoder.jpg  used on input line 416.
+Package pdftex.def Info: roc_autoencoder.jpg  used on input line 420.
 (pdftex.def)             Requested size: 180.67499pt x 115.62103pt.
- [7 <./conf_anomaly.jpg> <./Conf_autoencoder.jpg> <./roc_anomaly.jpg> <./roc_au
-toencoder.jpg>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./all_days_st_05_jan_wo_OL.jpg> <./conf_anomaly.jpg> <./Conf_autoencoder.j
+pg>]
 (v2-acmsmall-sample.bbl
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 46.
-
+ [8 <./roc_anomaly.jpg> <./roc_autoencoder.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 101--109
 []\OT1/pnc/m/n/8 Mohammad Roy-apoor and Tony Roskilly. 2015. Build-ing model ca
 l-i-bra-tion us-ing en-
@@ -694,7 +701,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--109
 ld-ings \OT1/pnc/m/n/8 94 (2015), 109 -- 120.
  []
 
-) [8] (v2-acmsmall-sample.aux)
+) [9] (v2-acmsmall-sample.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
@@ -705,12 +712,12 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  5623 strings out of 493305
- 73014 string characters out of 3138874
- 153009 words of memory out of 3000000
+ 73119 string characters out of 3138874
+ 154009 words of memory out of 3000000
  9045 multiletter control sequences out of 15000+200000
  31982 words of font info for 89 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,35p,2397b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,8n,35p,2397b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb><C:/Program Files/MiKTeX 2.9/f
@@ -727,9 +734,9 @@ ype1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic
 /uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on v2-acmsmall-sample.pdf (8 pages, 1085151 bytes).
+Output written on v2-acmsmall-sample.pdf (9 pages, 1094908 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
+ 112 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -10,7 +10,7 @@ end
 
 no_of_stores = length(unique(nov_2015(:,10)));
 different_hrs = length(unique(jan_2016(:,8)));
-jan_work_indices = find(jan_2016(:,7)==1);
+jan_work_indices = find(jan_2016(:,7)==0);
 jan_w = jan_2016(jan_work_indices,:);
 no_of_days = length(jan_w(:,1))/(no_of_stores*different_hrs);
 %for jj =96
