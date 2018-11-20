@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.24)  19 NOV 2018 19:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.24)  20 NOV 2018 15:53
 entering extended mode
 **./v2-acmsmall-sample.tex
 (v2-acmsmall-sample.tex
@@ -353,6 +353,59 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfig@top=\skip69
 \subfig@bottom=\skip70
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\svg\svg.sty"
+Package: svg 2018/11/12 v2.02b (include SVG pictures)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
+Package: scrbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
+Package: scrlfile 2018/03/30 v3.25 KOMA-Script package (loading files)
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\shellesc.sty"
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\trimspaces\trimspaces.sty"
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\svg@box=\box45
+\c@svg@param@lastpage=\count115
+\c@svg@param@currpage=\count116
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\transparent.sty"
+Package: transparent 2016/05/16 v1.1 Transparency via pdfTeX's color stack (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+))
 (v2-acmsmall-sample.aux
 
 LaTeX Warning: Label `sec:level1' multiply defined.
@@ -360,57 +413,51 @@ LaTeX Warning: Label `sec:level1' multiply defined.
 )
 \openout1 = `v2-acmsmall-sample.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Try loading font information for OT1+pnc on input line 49.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Try loading font information for OT1+pnc on input line 51.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pnc.fd"
 File: ot1pnc.fd 2001/06/04 font definitions for OT1/pnc.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count115
+\scratchcounter=\count117
 \scratchdimen=\dimen130
-\scratchbox=\box45
-\nofMPsegments=\count116
-\nofMParguments=\count117
+\scratchbox=\box46
+\nofMPsegments=\count118
+\nofMParguments=\count119
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count118
+\MPscratchCnt=\count120
 \MPscratchDim=\dimen131
-\MPnumerator=\count119
-\makeMPintoPDFobject=\count120
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
 \everyMPtoPDFconversion=\toks23
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
@@ -419,28 +466,11 @@ Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
@@ -448,16 +478,16 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 110.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 112.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 110.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 112.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 113.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 115.
 
 Overfull \vbox (72.27pt too high) has occurred while \output is active []
 
@@ -469,227 +499,222 @@ Non-PDF special ignored!
 <All_stores.jpg, id=8, 1253.68375pt x 526.96875pt>
 File: All_stores.jpg Graphic file (type jpg)
 <use All_stores.jpg>
-Package pdftex.def Info: All_stores.jpg  used on input line 193.
+Package pdftex.def Info: All_stores.jpg  used on input line 195.
 (pdftex.def)             Requested size: 369.89088pt x 156.4917pt.
 <jan_all_stores.jpg, id=9, 1487.5575pt x 526.96875pt>
 File: jan_all_stores.jpg Graphic file (type jpg)
 <use jan_all_stores.jpg>
-Package pdftex.def Info: jan_all_stores.jpg  used on input line 204.
+Package pdftex.def Info: jan_all_stores.jpg  used on input line 206.
 (pdftex.def)             Requested size: 369.89102pt x 156.4917pt.
  [2 <./All_stores.jpg>]
 <store_105_all.jpg, id=13, 1253.68375pt x 526.96875pt>
 File: store_105_all.jpg Graphic file (type jpg)
 <use store_105_all.jpg>
-Package pdftex.def Info: store_105_all.jpg  used on input line 215.
+Package pdftex.def Info: store_105_all.jpg  used on input line 217.
 (pdftex.def)             Requested size: 369.89088pt x 156.4917pt.
-<store_105_jan.jpg, id=14, 1487.5575pt x 526.96875pt>
-File: store_105_jan.jpg Graphic file (type jpg)
-<use store_105_jan.jpg>
-Package pdftex.def Info: store_105_jan.jpg  used on input line 228.
-(pdftex.def)             Requested size: 369.89102pt x 156.4917pt.
+LaTeX Font Info:    Font shape `OT1/pnc/bx/n' in size <10> not available
+(Font)              Font shape `OT1/pnc/b/n' tried instead on input line 226.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `fig:store_105_nov' on page 3 undefined on input line 
+226.
 
 [3 <./jan_all_stores.jpg> <./store_105_all.jpg>]
-LaTeX Font Info:    Try loading font information for U+lasy on input line 245.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 247.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 245.
+LaTeX Font Info:    Try loading font information for U+msa on input line 247.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 245.
+LaTeX Font Info:    Try loading font information for U+msb on input line 247.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [4 <./store_105_jan.jpg>]
-<IQR.jpg, id=25, 346.29375pt x 130.23656pt>
-File: IQR.jpg Graphic file (type jpg)
-<use IQR.jpg>
-Package pdftex.def Info: IQR.jpg  used on input line 271.
-(pdftex.def)             Requested size: 170.72108pt x 71.13152pt.
+)
+<IQR3.jpg, id=18, 880.4895pt x 303.534pt>
+File: IQR3.jpg Graphic file (type jpg)
+<use IQR3.jpg>
+Package pdftex.def Info: IQR3.jpg  used on input line 273.
+(pdftex.def)             Requested size: 170.70728pt x 71.13133pt.
+ [4 <./IQR3.jpg>]
 
-
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 300
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 302
 .
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 301.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 303.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 301.
-LaTeX Font Info:    Calculating math sizes for size <> on input line 301.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 303.
+LaTeX Font Info:    Calculating math sizes for size <> on input line 303.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 301.
+(Font)              size <5> substituted on input line 303.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 306
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 308
 .
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <> not available
-(Font)              size <5> substituted on input line 307.
+(Font)              size <5> substituted on input line 309.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 307.
+(Font)              size <5> substituted on input line 309.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 307.
+(Font)              size <5> substituted on input line 309.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <> not available
-(Font)              size <5> substituted on input line 307.
+(Font)              size <5> substituted on input line 309.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 307.
+(Font)              size <5> substituted on input line 309.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 307.
+(Font)              size <5> substituted on input line 309.
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 307.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 309.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 307.
+(Font)              size <5> substituted on input line 309.
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 307.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 309.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 307.
+(Font)              size <5> substituted on input line 309.
 
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <0.5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 307.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 309.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 307.
+(Font)              size <5> substituted on input line 309.
 
-[5 <./IQR.jpg>]
-<zzz.jpg, id=38, 744.98325pt x 304.7385pt>
+<zzz.jpg, id=26, 744.98325pt x 304.7385pt>
 File: zzz.jpg Graphic file (type jpg)
 <use zzz.jpg>
-Package pdftex.def Info: zzz.jpg  used on input line 335.
+Package pdftex.def Info: zzz.jpg  used on input line 337.
 (pdftex.def)             Requested size: 396.0pt x 161.98492pt.
-<all_days_st_05_jan_wo_OL.jpg, id=39, 813.0375pt x 316.18124pt>
+<all_days_st_05_jan_wo_OL.jpg, id=27, 813.0375pt x 316.18124pt>
 File: all_days_st_05_jan_wo_OL.jpg Graphic file (type jpg)
 <use all_days_st_05_jan_wo_OL.jpg>
-Package pdftex.def Info: all_days_st_05_jan_wo_OL.jpg  used on input line 345.
+Package pdftex.def Info: all_days_st_05_jan_wo_OL.jpg  used on input line 347.
 (pdftex.def)             Requested size: 396.0pt x 153.99902pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<conf_anomaly.jpg, id=40, 243.309pt x 245.718pt>
+<conf_anomaly.jpg, id=28, 243.309pt x 245.718pt>
 File: conf_anomaly.jpg Graphic file (type jpg)
 <use conf_anomaly.jpg>
-Package pdftex.def Info: conf_anomaly.jpg  used on input line 360.
+Package pdftex.def Info: conf_anomaly.jpg  used on input line 362.
 (pdftex.def)             Requested size: 180.67499pt x 182.4696pt.
-<Conf_autoencoder.jpg, id=41, 232.4685pt x 238.491pt>
+<Conf_autoencoder.jpg, id=29, 232.4685pt x 238.491pt>
 File: Conf_autoencoder.jpg Graphic file (type jpg)
 <use Conf_autoencoder.jpg>
-Package pdftex.def Info: Conf_autoencoder.jpg  used on input line 365.
+Package pdftex.def Info: Conf_autoencoder.jpg  used on input line 367.
 (pdftex.def)             Requested size: 180.67499pt x 185.36719pt.
-
+[5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6 <./zzz.jpg>]
+ [6 <./zzz.jpg> <./all_days_st_05_jan_wo_OL.jpg>]
 <roc_anomaly.jpg, id=45, 278.84175pt x 177.66376pt>
 File: roc_anomaly.jpg Graphic file (type jpg)
 <use roc_anomaly.jpg>
-Package pdftex.def Info: roc_anomaly.jpg  used on input line 415.
+Package pdftex.def Info: roc_anomaly.jpg  used on input line 417.
 (pdftex.def)             Requested size: 180.67499pt x 115.12222pt.
 <roc_autoencoder.jpg, id=46, 277.63725pt x 177.66376pt>
 File: roc_autoencoder.jpg Graphic file (type jpg)
 <use roc_autoencoder.jpg>
-Package pdftex.def Info: roc_autoencoder.jpg  used on input line 420.
+Package pdftex.def Info: roc_autoencoder.jpg  used on input line 422.
 (pdftex.def)             Requested size: 180.67499pt x 115.62103pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <./all_days_st_05_jan_wo_OL.jpg> <./conf_anomaly.jpg> <./Conf_autoencoder.j
-pg>]
-(v2-acmsmall-sample.bbl
+ [7 <./conf_anomaly.jpg> <./Conf_autoencoder.jpg> <./roc_anomaly.jpg> <./roc_au
+toencoder.jpg>] (v2-acmsmall-sample.bbl
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 46.
- [8 <./roc_anomaly.jpg> <./roc_autoencoder.jpg>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 101--109
 []\OT1/pnc/m/n/8 Mohammad Roy-apoor and Tony Roskilly. 2015. Build-ing model ca
 l-i-bra-tion us-ing en-
@@ -701,23 +726,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--109
 ld-ings \OT1/pnc/m/n/8 94 (2015), 109 -- 120.
  []
 
-) [9] (v2-acmsmall-sample.aux)
+) [8] (v2-acmsmall-sample.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5623 strings out of 493305
- 73119 string characters out of 3138874
- 154009 words of memory out of 3000000
- 9045 multiletter control sequences out of 15000+200000
- 31982 words of font info for 89 fonts, out of 3000000 for 9000
+ 6407 strings out of 493305
+ 88976 string characters out of 3138874
+ 190491 words of memory out of 3000000
+ 9800 multiletter control sequences out of 15000+200000
+ 33176 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,35p,2397b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,8n,42p,2397b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb><C:/Program Files/MiKTeX 2.9/f
@@ -732,11 +760,12 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic
-/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on v2-acmsmall-sample.pdf (9 pages, 1094908 bytes).
+/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on v2-acmsmall-sample.pdf (8 pages, 1053785 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
